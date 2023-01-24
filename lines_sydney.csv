@@ -1,0 +1,986 @@
+Name,Start,End,Number of Tracks,Length,Electrified,Min Curvature,Speed Limit Track,Speed Limit,Speed Limit Double Tilt,Speed Limit Tilt,Speed Curve,Speed Curve Double Tilt,Speed Curve Tilt
+Central Station Suburban,Central Station Suburban North,Central Station Suburban South,10,170,Yes,1600,200,155,195,200,155,195,200
+Main Suburban,Central Station Suburban South,Central Airport Branch,10,270,Yes,1000,200,125,150,165,125,150,165
+Main Suburban,Central Airport Branch,Central Split,10,350,Yes,800,200,110,135,145,110,135,145
+Main Suburban,Central Split,Redfern Station North,10,410,Yes,900,200,115,145,155,115,145,155
+Redfern Station,Redfern Station North,Redfern Station South,10,200,Yes,900,200,115,145,155,115,145,155
+Main Suburban,Redfern Station South,Eveleigh Railway Yards North,10,130,Yes,0,200,200,200,200,200,200,200
+Main Suburban,Eveleigh Railway Yards North,Redfern Split,10,550,Yes,0,200,200,200,200,200,200,200
+Main Suburban,Redfern Split,Macdonaldtown Yards,6,140,Yes,0,200,200,200,200,200,200,200
+Main Suburban,Macdonaldtown Yards,Macdonaldtown Station East,6,210,Yes,1400,200,145,180,195,145,180,195
+Macdonaldtown Station,Macdonaldtown Station East,Macdonaldtown Station West,6,160,Yes,0,200,200,200,200,200,200,200
+Main Suburban,Macdonaldtown Station West,Newtown Station East,6,460,Yes,800,200,110,135,145,110,135,145
+Newtown Station,Newtown Station East,Newtown Station West,6,160,Yes,0,200,200,200,200,200,200,200
+Main Suburban,Newtown Station West,Stanmore Station East,6,1400,Yes,800,200,110,135,145,110,135,145
+Stanmore Station,Stanmore Station East,Stanmore Station West,6,170,Yes,800,200,110,135,145,110,135,145
+Main Suburban,Stanmore Station West,Petersham Station East,6,660,Yes,700,200,100,125,135,100,125,135
+Petersham Station,Petersham Station East,Petersham Station West,6,170,Yes,700,200,100,125,135,100,125,135
+Main Suburban,Petersham Station West,West Street Bridge,6,570,Yes,1700,200,160,200,200,160,200,200
+Main Suburban,West Street Bridge,Lewisham Station East,6,570,Yes,0,200,200,200,200,200,200,200
+Lewisham Station,Lewisham Station East,Lewisham Station West,6,170,Yes,0,200,200,200,200,200,200,200
+Main Suburban,Lewisham Station West,Summer Hill Station East,6,600,Yes,0,200,200,200,200,200,200,200
+Summer Hill Station,Summer Hill Station East,Summer Hill Station West,6,180,Yes,0,200,200,200,200,200,200,200
+Main Suburban,Summer Hill Station West,Summer Hill Straight,6,210,Yes,800,200,110,135,145,110,135,145
+Main Suburban,Summer Hill Straight,Ashfield Station East,6,970,Yes,1100,200,130,160,175,130,160,175
+Ashfield Station,Ashfield Station East,Ashfield Station West,6,160,Yes,0,200,200,200,200,200,200,200
+Main Suburban,Ashfield Station West,Croydon Station East,6,880,Yes,1900,200,170,200,200,170,200,200
+Croydon Station,Croydon Station East,Croydon Station West,6,170,Yes,1900,200,170,200,200,170,200,200
+Main Suburban,Croydon Station West,Sunshine Buddies ELC,6,510,Yes,1900,200,170,200,200,170,200,200
+Main Suburban,Sunshine Buddies ELC,Burwood Station East,6,510,Yes,1000,200,125,150,165,125,150,165
+Burwood Station,Burwood Station East,Burwood Station West,6,210,Yes,1000,200,125,150,165,125,150,165
+Main Suburban,Burwood Station West,Strathfield Station East,6,960,Yes,900,200,115,145,155,115,145,155
+Strathfield Station,Strathfield Station East,Strathfield Station West,6,210,Yes,900,200,115,145,155,115,145,155
+Main Suburban,Strathfield Station West,Strathfield Intersection East,10,180,Yes,900,200,115,145,155,115,145,155
+Strathfield Junction,Strathfield Intersection East,Strathfield Intersection North,4,530,Yes,900,200,115,145,155,115,145,155
+Main North,Strathfield Intersection North,North Strathfield Station South,4,690,Yes,0,200,200,200,200,200,200,200
+North Strathfield Station,North Strathfield Station South,North Strathfield Station North,4,160,Yes,3100,200,200,200,200,200,200,200
+Main North,North Strathfield Station North,Concord West Station South,4,1000,Yes,3100,200,200,200,200,200,200,200
+Concord West Station,Concord West Station South,Concord West Station North,4,170,Yes,3100,200,200,200,200,200,200,200
+Main North,Concord West Station North,Rhodes Station South,4,1870,Yes,3100,200,200,200,200,200,200,200
+Rhodes Station,Rhodes Station South,Rhodes Station North,4,170,Yes,0,200,200,200,200,200,200,200
+Main North,Rhodes Station North,Meadowbank Station South,2,1440,Yes,3100,200,200,200,200,200,200,200
+Meadowbank Station,Meadowbank Station South,Meadowbank Station North,2,170,Yes,1800,200,165,200,200,165,200,200
+Main North,Meadowbank Station North,West Ryde Station South,2,850,Yes,1800,200,165,200,200,165,200,200
+West Ryde Station,West Ryde Station South,West Ryde Station North,3,160,Yes,1800,200,165,200,200,165,200,200
+Main North,West Ryde Station North,Denistone Station East,4,790,Yes,600,200,95,115,125,95,115,125
+Denistone Station,Denistone Station East,Denistone Station West,4,170,Yes,600,200,95,115,125,95,115,125
+Main North,Denistone Station West,Denistone Curve,4,440,Yes,800,200,110,135,145,110,135,145
+Main North,Denistone Curve,Eastwood Station South,4,640,Yes,1700,200,160,200,200,160,200,200
+Eastwood Station,Eastwood Station South,Eastwood Station North,4,210,Yes,1700,200,160,200,200,160,200,200
+Main North,Eastwood Station North,Epping Curve,4,1130,Yes,0,200,200,200,200,200,200,200
+Main North,Epping Curve,Epping Station South,4,610,Yes,800,200,110,135,145,110,135,145
+Epping Station,Epping Station South,Epping Station North,4,210,Yes,800,200,110,135,145,110,135,145
+Main North,Epping Station North,Epping Straight,3,1130,Yes,800,200,110,135,145,110,135,145
+Main North,Epping Straight,Cheltenham Curve,3,420,Yes,0,200,200,200,200,200,200,200
+Main North,Cheltenham Curve,Cheltenham Station East,3,270,Yes,500,200,85,105,115,85,105,115
+Cheltenham Station,Cheltenham Station East,Cheltenham Station West,3,170,Yes,500,200,85,105,115,85,105,115
+Main North,Cheltenham Station West,Cheltenham Straight,3,320,Yes,500,200,85,105,115,85,105,115
+Main North,Cheltenham Straight,Beecroft Bend,3,480,Yes,0,200,200,200,200,200,200,200
+Main North,Beecroft Bend,Beecroft Station South,3,570,Yes,400,200,75,95,100,75,95,100
+Beecroft Station,Beecroft Station South,Beecroft Station North,3,160,Yes,400,200,75,95,100,75,95,100
+Main North,Beecroft Station North,Cherrytulip Gentle,3,880,Yes,300,200,65,80,85,65,80,85
+Main North,Cherrytulip Gentle,Pennant Hills Straight,3,340,Yes,500,200,85,105,115,85,105,115
+Main North,Pennant Hills Straight,Pennant Hills Station South,3,280,Yes,0,200,200,200,200,200,200,200
+Pennant Hills Station,Pennant Hills Station South,Pennant Hills Station North,3,170,Yes,0,200,200,200,200,200,200,200
+Main North,Pennant Hills Station North,Thornleigh Station South,4,690,Yes,0,200,200,200,200,200,200,200
+Thornleigh Station,Thornleigh Station South,Thornleigh Station North,3,170,Yes,0,200,200,200,200,200,200,200
+Main North,Thornleigh Station North,Thornleigh Curve,3,990,Yes,0,200,200,200,200,200,200,200
+Main North,Thornleigh Curve,Normanhurst Curve South,2,710,Yes,800,200,110,135,145,110,135,145
+Main North,Normanhurst Curve South,Normanhurst Station South,2,410,Yes,800,200,110,135,145,110,135,145
+Normanhurst Station,Normanhurst Station South,Normanhurst Station North,2,170,Yes,800,200,110,135,145,110,135,145
+Main North,Normanhurst Station North,Clarke Road Bridge,2,850,Yes,800,200,110,135,145,110,135,145
+Main North,Clarke Road Bridge,Normanhurst Curve,3,680,Yes,900,200,115,145,155,115,145,155
+Main North,Normanhurst Curve,Hornsby Station South,3,380,Yes,0,200,200,200,200,200,200,200
+Hornsby Station,Hornsby Station South,Hornsby Station North,5,240,Yes,0,200,200,200,200,200,200,200
+Main North,Hornsby Station North,Hornsby Yards,5,140,Yes,600,200,95,115,125,95,115,125
+Main North,Hornsby Yards,Hornsby Main North Curve,4,340,Yes,0,200,200,200,200,200,200,200
+Main North,Hornsby Main North Curve,Hornsby Depot,2,450,Yes,500,200,85,105,115,85,105,115
+Main North,Hornsby Depot,Asquith Station South,2,740,Yes,0,200,200,200,200,200,200,200
+Asquith Station,Asquith Station South,Asquith Station North,2,160,Yes,1000,200,125,150,165,125,150,165
+Main North,Asquith Station North,Asquith Curve North,2,540,Yes,1000,200,125,150,165,125,150,165
+Main North,Asquith Curve North,Mount Colah Station South,2,1260,Yes,0,200,200,200,200,200,200,200
+Mount Colah Station,Mount Colah Station South,Mount Colah Station North,2,170,Yes,900,200,115,145,155,115,145,155
+Main North,Mount Colah Station North,Mount Kuring-gai Curve,2,2480,Yes,1600,200,155,195,200,155,195,200
+Main North,Mount Kuring-gai Curve,Mount Kuring-gai Station South,2,380,Yes,400,200,75,95,100,75,95,100
+Mount Kuring-Gai Station,Mount Kuring-gai Station South,Mount Kuring-gai Station North,2,180,Yes,400,200,75,95,100,75,95,100
+Main North,Mount Kuring-gai Station North,Berowra Men's Shed,2,1220,Yes,400,200,75,95,100,75,95,100
+Main North,Berowra Men's Shed,Mount Kuring-gai Straight,2,480,Yes,1000,200,125,150,165,125,150,165
+Main North,Mount Kuring-gai Straight,Berowra Bend,2,980,Yes,0,200,200,200,200,200,200,200
+Main North,Berowra Bend,Berowra Station South,2,1110,Yes,600,200,95,115,125,95,115,125
+Berowra Station,Berowra Station South,Berowra Station North,3,190,Yes,0,200,200,200,200,200,200,200
+Main North,Berowra Station North,Berowra North Bend,2,1550,Yes,1500,200,150,190,200,150,190,200
+Main North,Berowra North Bend,Cowan Zig Zag,2,930,Yes,1100,200,130,160,175,130,160,175
+Main North,Cowan Zig Zag,Cowan Straight,2,1360,Yes,300,200,65,80,85,65,80,85
+Main North,Cowan Straight,Cowan Station South,3,200,Yes,0,200,200,200,200,200,200,200
+Cowan Station,Cowan Station South,Cowan Station North,3,120,Yes,0,200,200,200,200,200,200,200
+Main North,Cowan Station North,Cowan Curves,2,470,Yes,700,200,100,125,135,100,125,135
+Main North,Cowan Curves,Cowan Bend,2,570,Yes,900,200,115,145,155,115,145,155
+Main North,Cowan Bend,Cowan Tunnel South,2,730,Yes,300,200,65,80,85,65,80,85
+Main North,Cowan Tunnel South,Pie in the Sky Bend,2,910,Yes,900,200,115,145,155,115,145,155
+Main North,Pie in the Sky Bend,Pie in the Sky Bend North,2,200,Yes,200,200,50,65,70,50,65,70
+Main North,Pie in the Sky Bend North,Brooklyn Dam Trail South,2,1680,Yes,600,200,95,115,125,95,115,125
+Main North,Brooklyn Dam Trail South,Boronia Curve,2,740,Yes,400,200,75,95,100,75,95,100
+Main North,Boronia Curve,Boronia Tunnel North,2,400,Yes,200,200,50,65,70,50,65,70
+Main North,Boronia Tunnel North,Brooklyn Dam Trail North,2,1190,Yes,300,200,65,80,85,65,80,85
+Main North,Brooklyn Dam Trail North,Brooklyn Straight,2,880,Yes,500,200,85,105,115,85,105,115
+Main North,Brooklyn Straight,Hawkesbury River Station South,2,670,Yes,0,200,200,200,200,200,200,200
+Hawkesbury River Station,Hawkesbury River Station South,Hawkesbury River Station North,2,210,Yes,300,200,65,80,85,65,80,85
+Main North,Hawkesbury River Station North,Hawkesbury River Bridge South,2,620,Yes,800,200,110,135,145,110,135,145
+Main North,Hawkesbury River Bridge South,Hawkesbury River Bridge North,2,1180,Yes,0,200,200,200,200,200,200,200
+Main North,Hawkesbury River Bridge North,Hawkesbury River Straight,2,840,Yes,600,200,95,115,125,95,115,125
+Main North,Hawkesbury River Straight,Hawkesbury River Curve,2,810,Yes,0,200,200,200,200,200,200,200
+Main North,Hawkesbury River Curve,Hawkesbury River Bend,2,770,Yes,1200,200,135,165,180,135,165,180
+Main North,Hawkesbury River Bend,Hawkesbury River Bend North,2,590,Yes,300,200,65,80,85,65,80,85
+Main North,Hawkesbury River Bend North,Mullet Creek Straight,2,690,Yes,1100,200,130,160,175,130,160,175
+Main North,Mullet Creek Straight,Mullet Creek Bend,2,470,Yes,0,200,200,200,200,200,200,200
+Main North,Mullet Creek Bend,Wondabyne Station South,2,1730,Yes,300,200,65,80,85,65,80,85
+Wondabyne Station,Wondabyne Station South,Wondabyne Station North,2,30,Yes,0,200,200,200,200,200,200,200
+Main North,Wondabyne Station North,Wondabyne Bend,2,330,Yes,500,200,85,105,115,85,105,115
+Main North,Wondabyne Bend,Mullet Creek North Bend,2,550,Yes,0,200,200,200,200,200,200,200
+Main North,Mullet Creek North Bend,Myron Brook,2,320,Yes,400,200,75,95,100,75,95,100
+Main North,Myron Brook,Myron Brook Tunnel West,2,510,Yes,700,200,100,125,135,100,125,135
+Main North,Myron Brook Tunnel West,Myron Brook Tunnel East,2,2370,Yes,0,200,200,200,200,200,200,200
+Main North,Myron Brook Tunnel East,Woy Woy Straight,2,1950,Yes,1700,200,160,200,200,160,200,200
+Main North,Woy Woy Straight,Woy Woy Station South,2,1290,Yes,0,200,200,200,200,200,200,200
+Woy Woy Station,Woy Woy Station South,Woy Woy Station North,3,290,Yes,400,200,75,95,100,75,95,100
+Main North,Woy Woy Station North,Spike Milligan Bridge,2,830,Yes,0,200,200,200,200,200,200,200
+Main North,Spike Milligan Bridge,Koolewong Station South,2,1180,Yes,900,200,115,145,155,115,145,155
+Koolewong Station,Koolewong Station South,Koolewong Station North,2,120,Yes,800,200,110,135,145,110,135,145
+Main North,Koolewong Station North,Koolewong Station Bend,2,500,Yes,800,200,110,135,145,110,135,145
+Main North,Koolewong Station Bend,Koolewong Station Bend North,2,500,Yes,300,200,65,80,85,65,80,85
+Main North,Koolewong Station Bend North,Tascott Bend,2,820,Yes,0,200,200,200,200,200,200,200
+Main North,Tascott Bend,Tascott Station South,2,210,Yes,500,200,85,105,115,85,105,115
+Tascott Station,Tascott Station South,Tascott Station North,2,50,Yes,500,200,85,105,115,85,105,115
+Main North,Tascott Station North,Tascott Bend North,2,200,Yes,500,200,85,105,115,85,105,115
+Main North,Tascott Bend North,Point Clare Station South,2,850,Yes,800,200,110,135,145,110,135,145
+Point Clare Station,Point Clare Station South,Point Clare Station North,2,100,Yes,1900,200,170,200,200,170,200,200
+Main North,Point Clare Station North,Gosford Big Bend,2,1740,Yes,1900,200,170,200,200,170,200,200
+Main North,Gosford Big Bend,Gosford Yards South,2,600,Yes,700,200,100,125,135,100,125,135
+Main North,Gosford Yards South,Gosford Station South,3,370,Yes,500,200,85,105,115,85,105,115
+Gosford Station,Gosford Station South,Gosford Station North,3,210,Yes,0,200,200,200,200,200,200,200
+Main North,Gosford Station North,Gosford Yards North,3,450,Yes,0,200,200,200,200,200,200,200
+Main North,Gosford Yards North,Bradys Gully Bend,2,1290,Yes,800,200,110,135,145,110,135,145
+Main North,Bradys Gully Bend,Narara Creek Straight,2,540,Yes,400,200,75,95,100,75,95,100
+Main North,Narara Creek Straight,Narara Creek Bend,2,750,Yes,0,200,200,200,200,200,200,200
+Main North,Narara Creek Bend,Narara Station South,2,510,Yes,300,200,65,80,85,65,80,85
+Narara Creek Station,Narara Station South,Narara Station North,2,100,Yes,0,200,200,200,200,200,200,200
+Main North,Narara Station North,Niagara Park Station South,2,1500,Yes,1700,200,160,200,200,160,200,200
+Niagara Park Station,Niagara Park Station South,Niagara Park Station North,2,110,Yes,500,200,85,105,115,85,105,115
+Main North,Niagara Park Station North,Niagara Park Straight,2,400,Yes,500,200,85,105,115,85,105,115
+Main North,Niagara Park Straight,Lisarow Station South,2,1000,Yes,900,200,115,145,155,115,145,155
+Lisarow Station,Lisarow Station South,Lisarow Station North,2,110,Yes,900,200,115,145,155,115,145,155
+Main North,Lisarow Station North,Ourimbah Station South,2,2780,Yes,1400,200,145,180,195,145,180,195
+Ourimbah Station,Ourimbah Station South,Ourimbah Station North,2,140,Yes,1200,200,135,165,180,135,165,180
+Main North,Ourimbah Station North,Bangalow Creek,2,1450,Yes,1200,200,135,165,180,135,165,180
+Main North,Bangalow Creek,Bali Oasis,2,1970,Yes,1800,200,165,200,200,165,200,200
+Main North,Bali Oasis,Ourimbah Creek,2,2870,Yes,0,200,200,200,200,200,200,200
+Main North,Ourimbah Creek,Tuggerah Straight,2,650,Yes,1400,200,145,180,195,145,180,195
+Main North,Tuggerah Straight,Tuggerah Station South,2,680,Yes,0,200,200,200,200,200,200,200
+Tuggerah Station,Tuggerah Station South,Tuggerah Station North,2,200,Yes,0,200,200,200,200,200,200,200
+Main North,Tuggerah Station North,Wyong Station South,2,2320,Yes,0,200,200,200,200,200,200,200
+Wyong Station,Wyong Station South,Wyong Station North,3,200,Yes,0,200,200,200,200,200,200,200
+Main North,Wyong Station North,Porters Creek,2,2530,Yes,0,200,200,200,200,200,200,200
+Main North,Porters Creek,Warnervale Station South,2,2130,Yes,2900,200,200,200,200,200,200,200
+Warnervale Station,Warnervale Station South,Warnervale Station North,2,110,Yes,2900,200,200,200,200,200,200,200
+Main North,Warnervale Station North,Nikko Road,2,790,Yes,0,200,200,200,200,200,200,200
+Main North,Nikko Road,Warnervale Creek,2,1090,Yes,1700,200,160,200,200,160,200,200
+Main North,Warnervale Creek,Allinga Road,2,640,Yes,1200,200,135,165,180,135,165,180
+Main North,Allinga Road,Mona Road Bend,2,980,Yes,1300,200,140,175,190,140,175,190
+Main North,Mona Road Bend,Doyalson Link Bend,2,1840,Yes,1900,200,170,200,200,170,200,200
+Main North,Doyalson Link Bend,Doyalson Link Straight,2,630,Yes,1200,200,135,165,180,135,165,180
+Main North,Doyalson Link Straight,Wyee Bend,2,1360,Yes,0,200,200,200,200,200,200,200
+Main North,Wyee Bend,Gosford Road,2,760,Yes,1000,200,125,150,165,125,150,165
+Main North,Gosford Road,Wyee Straight,2,420,Yes,1600,200,155,195,200,155,195,200
+Main North,Wyee Straight,Wyee Station South,2,390,Yes,0,200,200,200,200,200,200,200
+Wyee Station,Wyee Station South,Wyee Station North,2,150,Yes,0,200,200,200,200,200,200,200
+Main North,Wyee Station North,Chain Valley Bend,2,1830,Yes,0,200,200,200,200,200,200,200
+Main North,Chain Valley Bend,Chain Valley Straight,2,1580,Yes,1100,200,130,160,175,130,160,175
+Main North,Chain Valley Straight,Chain Valley Colliery,2,1150,Yes,0,200,200,200,200,200,200,200
+Main North,Chain Valley Colliery,Pourmalong Creek,2,790,Yes,500,200,85,105,115,85,105,115
+Main North,Pourmalong Creek,Morriset South Bend,2,1040,Yes,1200,200,135,165,180,135,165,180
+Main North,Morriset South Bend,Morriset Station West,2,1910,Yes,1400,200,145,180,195,145,180,195
+Morriset Station,Morriset Station West,Morriset Station East,2,200,Yes,1400,200,145,180,195,145,180,195
+Main North,Morriset Station East,Morriset North Bend,2,1150,Yes,3000,200,200,200,200,200,200,200
+Main North,Morriset North Bend,Emmas Kitchen,2,630,Yes,300,200,65,80,85,65,80,85
+Main North,Emmas Kitchen,Dora Creek Straight,2,940,Yes,700,200,100,125,135,100,125,135
+Main North,Dora Creek Straight,Dora Creek Station South,2,1020,Yes,0,200,200,200,200,200,200,200
+Dora Creek Station,Dora Creek Station South,Dora Creek Station North,2,190,Yes,0,200,200,200,200,200,200,200
+Main North,Dora Creek Station North,Dora Creek Curves,2,670,Yes,0,200,200,200,200,200,200,200
+Main North,Dora Creek Curves,Rocky Point Road,2,1600,Yes,1100,200,130,160,175,130,160,175
+Main North,Rocky Point Road,Hawkmount Bend,2,1640,Yes,700,200,100,125,135,100,125,135
+Main North,Hawkmount Bend,Hawkmount,2,430,Yes,400,200,75,95,100,75,95,100
+Main North,Hawkmount,Eraring Power Station Branch,2,1000,Yes,600,200,95,115,125,95,115,125
+Main North,Eraring Power Station Branch,Eraring Bends,2,860,Yes,700,200,100,125,135,100,125,135
+Main North,Eraring Bends,Eraring Curves,2,1150,Yes,300,200,65,80,85,65,80,85
+Main North,Eraring Curves,Eraring Sharps,2,1060,Yes,800,200,110,135,145,110,135,145
+Main North,Eraring Sharps,Stoney Creek Bends,2,450,Yes,300,200,65,80,85,65,80,85
+Main North,Stoney Creek Bends,Awaba Station West,2,1080,Yes,700,200,100,125,135,100,125,135
+Awaba Station,Awaba Station West,Awaba Station East,2,140,Yes,700,200,100,125,135,100,125,135
+Main North,Awaba Station East,Awaba Straight,2,360,Yes,700,200,100,125,135,100,125,135
+Main North,Awaba Straight,Palmers Creek,2,2430,Yes,3900,200,200,200,200,200,200,200
+Main North,Palmers Creek,Stoney Creek Crossing,2,810,Yes,1300,200,140,175,190,140,175,190
+Main North,Stoney Creek Crossing,Fassifern Bend,2,650,Yes,700,200,100,125,135,100,125,135
+Main North,Fassifern Bend,Fassifern Station South,2,560,Yes,400,200,75,95,100,75,95,100
+Fassifern Station,Fassifern Station South,Fassifern Station North,2,220,Yes,400,200,75,95,100,75,95,100
+Main North,Fassifern Station North,Centennial Coal South,2,150,Yes,0,200,200,200,200,200,200,200
+Main North,Centennial Coal South,Centennial Coal North,2,380,Yes,0,200,200,200,200,200,200,200
+Main North,Centennial Coal North,L T Creek Bend,2,570,Yes,0,200,200,200,200,200,200,200
+Main North,L T Creek Bend,L T Creek Straight,2,390,Yes,500,200,85,105,115,85,105,115
+Main North,L T Creek Straight,Marmong Creek Bend,2,450,Yes,0,200,200,200,200,200,200,200
+Main North,Marmong Creek Bend,Booragul Bend,2,480,Yes,300,200,65,80,85,65,80,85
+Main North,Booragul Bend,Booragul Station South,2,1540,Yes,400,200,75,95,100,75,95,100
+Main North,Booragul Station South,Booragul Station North,2,100,Yes,0,200,200,200,200,200,200,200
+Booragul Station,Booragul Station North,Teralba Bend,2,470,Yes,0,200,200,200,200,200,200,200
+Main North,Teralba Bend,Teralba Station West,2,590,Yes,400,200,75,95,100,75,95,100
+Teralba Station,Teralba Station West,Teralba Station East,2,140,Yes,2800,200,200,200,200,200,200,200
+Main North,Teralba Station East,Cockle Creek Bend,2,1940,Yes,2800,200,200,200,200,200,200,200
+Main North,Cockle Creek Bend,Cockle Creek Straight,2,720,Yes,1000,200,125,150,165,125,150,165
+Main North,Cockle Creek Straight,Cockle Creek Station West,2,310,Yes,0,200,200,200,200,200,200,200
+Main North,Cockle Creek Station West,Cockle Creek Station East,2,120,Yes,1200,200,135,165,180,135,165,180
+Main North,Cockle Creek Station East,Glendale Straight,2,1440,Yes,1200,200,135,165,180,135,165,180
+Main North,Glendale Straight,Glendale Yard West,2,610,Yes,0,200,200,200,200,200,200,200
+Main North,Glendale Yard West,Glendale Bend,2,730,Yes,0,200,200,200,200,200,200,200
+Main North,Glendale Bend,Glendale Yard East,2,220,Yes,400,200,75,95,100,75,95,100
+Main North,Glendale Yard East,Cardiff Station North,2,1170,Yes,400,200,75,95,100,75,95,100
+Cardiff Station,Cardiff Station North,Cardiff Station South,2,210,Yes,400,200,75,95,100,75,95,100
+Main North,Cardiff Station South,Cardiff Straight,2,290,Yes,400,200,75,95,100,75,95,100
+Main North,Cardiff Straight,Tickhole Creek,2,990,Yes,500,200,85,105,115,85,105,115
+Main North,Tickhole Creek,Kotara Bend,2,1830,Yes,700,200,100,125,135,100,125,135
+Main North,Kotara Bend,Kotara Station West,2,560,Yes,1300,200,140,175,190,140,175,190
+Kotara Station,Kotara Station West,Kotara Station East,2,160,Yes,3700,200,200,200,200,200,200,200
+Main North,Kotara Station East,Kotara Shopping Centre,2,1100,Yes,3700,200,200,200,200,200,200,200
+Main North,Kotara Shopping Centre,Adamstown Station South,2,970,Yes,1300,200,140,175,190,140,175,190
+Adamstown Station,Adamstown Station South,Adamstown Station North,2,100,Yes,0,200,200,200,200,200,200,200
+Main North,Adamstown Station North,Broadmeadow Rail Centre South,3,120,Yes,0,200,200,200,200,200,200,200
+Main North,Broadmeadow Rail Centre South,Broadmeadow Rail Centre North,3,1440,Yes,0,200,200,200,200,200,200,200
+Main North,Broadmeadow Rail Centre North,Broadmeadow Station South,4,120,Yes,0,200,200,200,200,200,200,200
+Broadmeadow Station,Broadmeadow Station South,Broadmeadow Station North,4,190,Yes,0,200,200,200,200,200,200,200
+Main North,Broadmeadow Station North,Broadmeadow Junction South,4,920,Yes,0,200,200,200,200,200,200,200
+Newcastle Branch,Broadmeadow Junction South,Broadmeadow Junction East,2,450,Yes,300,200,65,80,85,65,80,85
+Newcastle Branch,Broadmeadow Junction East,Hamilton Station North,2,150,Yes,0,200,200,200,200,200,200,200
+Hamilton Station,Hamilton Station North,Hamilton Station South,2,200,Yes,0,200,200,200,200,200,200,200
+Newcastle Branch,Hamilton Station South,Wickham Station West,2,1090,Yes,2500,200,200,200,200,200,200,200
+Wickham Station,Wickham Station West,Wickham Station East,2,170,Yes,2500,200,200,200,200,200,200,200
+Newcastle Branch,Wickham Station East,Civic Station West,2,940,Yes,1900,200,170,200,200,170,200,200
+Civic Station,Civic Station West,Civic Station East,2,160,Yes,0,200,200,200,200,200,200,200
+Newcastle Branch,Civic Station East,Newcastle Station West,2,920,Yes,3000,200,200,200,200,200,200,200
+Newcastle Station,Newcastle Station West,Newcastle Station East,4,200,Yes,1100,200,130,160,175,130,160,175
+North Shore,Hornsby Station South,Hornsby North Shore Curve,2,200,Yes,200,200,50,65,70,50,65,70
+North Shore,Hornsby North Shore Curve,Waitara Station West,2,610,Yes,0,200,200,200,200,200,200,200
+Waitara Station,Waitara Station West,Waitara Station East,2,160,Yes,1800,200,165,200,200,165,200,200
+North Shore,Waitara Station East,Wahroonga Station North,2,1270,Yes,1700,200,160,200,200,160,200,200
+Wahroonga Station,Wahroonga Station North,Wahroonga Station South,2,160,Yes,2600,200,200,200,200,200,200,200
+North Shore,Wahroonga Station South,Warrawee Station North,2,730,Yes,2600,200,200,200,200,200,200,200
+Warrawee Station,Warrawee Station North,Warrawee Station South,2,160,Yes,2600,200,200,200,200,200,200,200
+North Shore,Warrawee Station South,Turramurra Station North,2,910,Yes,3200,200,200,200,200,200,200,200
+Turramurra Station,Turramurra Station North,Turramurra Station South,2,160,Yes,3200,200,200,200,200,200,200,200
+North Shore,Turramurra Station South,Pymble Bend,2,1190,Yes,0,200,200,200,200,200,200,200
+North Shore,Pymble Bend,Pymble Station West,2,570,Yes,1200,200,135,165,180,135,165,180
+Pymble Station,Pymble Station West,Pymble Station East,2,160,Yes,1200,200,135,165,180,135,165,180
+North Shore,Pymble Station East,Pymble Curve,2,440,Yes,400,200,75,95,100,75,95,100
+North Shore,Pymble Curve,Park Avenue Bridge,2,1010,Yes,800,200,110,135,145,110,135,145
+North Shore,Park Avenue Bridge,Gordon Station North,2,150,Yes,0,200,200,200,200,200,200,200
+Gordon Station,Gordon Station North,Gordon Station South,3,180,Yes,0,200,200,200,200,200,200,200
+North Shore,Gordon Station South,Killara Station North,2,1070,Yes,0,200,200,200,200,200,200,200
+Killara Station,Killara Station North,Killara Station South,2,160,Yes,0,200,200,200,200,200,200,200
+North Shore,Killara Station South,Lindfield Station North,2,1120,Yes,0,200,200,200,200,200,200,200
+Lindfield Station,Lindfield Station North,Lindfield Station South,3,160,Yes,600,200,95,115,125,95,115,125
+North Shore,Lindfield Station South,Lindfield Curve,2,170,Yes,600,200,95,115,125,95,115,125
+North Shore,Lindfield Curve,Roseville Station West,2,1000,Yes,900,200,115,145,155,115,145,155
+Roseville Station,Roseville Station West,Roseville Station East,2,160,Yes,900,200,115,145,155,115,145,155
+North Shore,Roseville Station East,Roseville Junction,2,600,Yes,900,200,115,145,155,115,145,155
+North Shore,Roseville Junction,Chatswood Station North,4,820,Yes,0,200,200,200,200,200,200,200
+Chatswood Station,Chatswood Station North,Chatswood Station South,4,170,Yes,0,200,200,200,200,200,200,200
+North Shore,Chatswood Station South,Chatswood Junction,4,380,Yes,0,200,200,200,200,200,200,200
+North Shore,Chatswood Junction,Artarmon Station West,2,830,Yes,900,200,115,145,155,115,145,155
+Artarmon Station,Artarmon Station West,Artarmon Station East,2,170,Yes,900,200,115,145,155,115,145,155
+North Shore,Artarmon Station East,St Leonards Bend,2,1090,Yes,800,200,110,135,145,110,135,145
+North Shore,St Leonards Bend,St Leonards Station North,2,580,Yes,2200,200,185,200,200,185,200,200
+St Leonards Station,St Leonards Station North,St Leonards Station South,2,170,Yes,0,200,200,200,200,200,200,200
+North Shore,St Leonards Station South,St Leonards Bend South,2,430,Yes,2200,200,185,200,200,185,200,200
+North Shore,St Leonards Bend South,Wollstonecraft Bend,2,460,Yes,300,200,65,80,85,65,80,85
+North Shore,Wollstonecraft Bend,Wollstonecraft Station North,2,220,Yes,200,200,50,65,70,50,65,70
+Wollstonecraft Station,Wollstonecraft Station North,Wollstonecraft Station South,2,160,Yes,200,200,50,65,70,50,65,70
+North Shore,Wollstonecraft Station South,Waverton Tunnel,2,670,Yes,200,200,50,65,70,50,65,70
+North Shore,Waverton Tunnel,Waverton Station North,2,240,Yes,500,200,85,105,115,85,105,115
+Waverton Station,Waverton Station North,Waverton Station South,3,160,Yes,500,200,85,105,115,85,105,115
+North Shore,Waverton Station South,Lavender Bay Yards,3,80,Yes,500,200,85,105,115,85,105,115
+North Shore,Lavender Bay Yards,North Sydney Tunnel,4,280,Yes,900,200,115,145,155,115,145,155
+North Shore,North Sydney Tunnel,North Sydney Station West,4,450,Yes,0,200,200,200,200,200,200,200
+North Sydney Station,North Sydney Station West,North Sydney Station East,4,160,Yes,0,200,200,200,200,200,200,200
+North Shore,North Sydney Station East,Milsons Point Station North,2,550,Yes,500,200,85,105,115,85,105,115
+Milsons Point Station,Milsons Point Station North,Milsons Point Station South,2,170,Yes,0,200,200,200,200,200,200,200
+North Shore,Milsons Point Station South,Harbour Bridge North,2,420,Yes,400,200,75,95,100,75,95,100
+North Shore,Harbour Bridge North,Harbour Bridge South,2,1090,Yes,0,200,200,200,200,200,200,200
+North Shore,Harbour Bridge South,Grosvenor Street,2,500,Yes,700,200,100,125,135,100,125,135
+North Shore,Grosvenor Street,Wynyard Station North,4,220,Yes,0,200,200,200,200,200,200,200
+Wynyard Station,Wynyard Station North,Wynyard Station South,4,160,Yes,0,200,200,200,200,200,200,200
+North Shore,Wynyard Station South,Town Hall Station North,4,680,Yes,0,200,200,200,200,200,200,200
+Town Hall Station,Town Hall Station North,Town Hall Station South,6,160,Yes,0,200,200,200,200,200,200,200
+North Shore,Town Hall Station South,Campbell Street Tunnel,6,640,Yes,500,200,85,105,115,85,105,115
+Main Suburban,Campbell Street Tunnel,Central Station Suburban North,8,450,Yes,1600,200,155,195,200,155,195,200
+City Circle,Grosvenor Street,Cahill Expressway Straight,2,370,Yes,150,200,45,55,60,45,55,60
+City Circle,Cahill Expressway Straight,Circular Quay Station West,2,170,Yes,0,200,200,200,200,200,200,200
+Circular Quay Station,Circular Quay Station West,Circular Quay Station East,2,160,Yes,0,200,200,200,200,200,200,200
+City Circle,Circular Quay Station East,Macquarie Street Curve,2,360,Yes,150,200,45,55,60,45,55,60
+City Circle,Macquarie Street Curve,City Circle Straight,2,390,Yes,500,200,85,105,115,85,105,115
+City Circle,City Circle Straight,St James Station North,2,430,Yes,0,200,200,200,200,200,200,200
+St James Station,St James Station North,St James Station South,2,160,Yes,0,200,200,200,200,200,200,200
+City Circle,St James Station South,Museum Station North,2,500,Yes,0,200,200,200,200,200,200,200
+Museum Station,Museum Station North,Museum Station South,2,160,Yes,0,200,200,200,200,200,200,200
+City Circle,Museum Station South,Campbell Street Tunnel,2,290,Yes,900,200,115,145,155,115,145,155
+Strathfield Junction,Strathfield Intersection East,Strathfield Intersection West,6,510,Yes,1900,200,170,200,200,170,200,200
+Strathfield Junction,Strathfield Intersection North,Strathfield Intersection West,2,390,Yes,200,200,50,65,70,50,65,70
+Main Suburban,Strathfield Intersection West,Homebush Station East,7,60,Yes,1200,200,135,165,180,135,165,180
+Homebush Station,Homebush Station East,Homebush Station West,7,160,Yes,1200,200,135,165,180,135,165,180
+Main Suburban,Homebush Station West,Homebush Bend,6,480,Yes,0,200,200,200,200,200,200,200
+Main Suburban,Homebush Bend,Flemington East,6,940,Yes,1100,200,130,160,175,130,160,175
+Main Suburban,Flemington East,Flemington West,6,160,Yes,0,200,200,200,200,200,200,200
+Main Suburban,Flemington West,Flemington Junction East,6,240,Yes,0,200,200,200,200,200,200,200
+Main Suburban,Flemington Junction East,Flemington Straight,4,1080,Yes,1600,200,155,195,200,155,195,200
+Main Suburban,Flemington Straight,Flemington Junction West,4,360,Yes,0,200,200,200,200,200,200,200
+Flemington Inner Junction,Flemington Junction West,Flemington Maintence Centre West,4,150,Yes,200,200,50,65,70,50,65,70
+Flemington Inner Junction,Flemington Maintence Centre West,Flemington Inner Junction Straight,2,280,Yes,300,200,65,80,85,65,80,85
+Flemington Inner Junction,Flemington Inner Junction Straight,Flemington Inner Junction West,2,320,Yes,500,200,85,105,115,85,105,115
+Flemington Inner Junction,Flemington Junction East,Flemington Maintence Centre East,4,230,Yes,900,200,115,145,155,115,145,155
+Flemington Inner Junction,Flemington Maintence Centre East,Flemington Inner Junction North,2,540,Yes,200,200,50,65,70,50,65,70
+Flemington Inner Junction,Flemington Inner Junction West,Flemington Maintence Centre East,2,570,Yes,300,200,65,80,85,65,80,85
+Flemington Inner Junction,Flemington Inner Junction West,Flemington Inner Junction North,2,250,Yes,400,200,75,95,100,75,95,100
+Flemington Inner Junction,Flemington Maintence Centre West,Flemington West Junction South,2,460,Yes,200,200,50,65,70,50,65,70
+Flemington Inner Junction,Flemington Inner Junction West,Flemington West Junction South,2,350,Yes,200,200,50,65,70,50,65,70
+Main Suburban,Flemington Junction West,Lidcombe Curve,5,220,Yes,0,200,200,200,200,200,200,200
+Main Suburban,Lidcombe Curve,Lidcombe Station East,5,230,Yes,700,200,100,125,135,100,125,135
+Lidcombe Station,Lidcombe Station East,Lidcombe Station West,5,200,Yes,700,200,100,125,135,100,125,135
+Lidcombe Junction,Lidcombe Station West,Lidcombe Junction North,4,410,Yes,700,200,100,125,135,100,125,135
+Lidcombe Junction,Lidcombe Junction North,Lidcombe Junction South,1,300,Yes,200,200,50,65,70,50,65,70
+Lidcombe Junction,Lidcombe Station West,Lidcombe Junction South,2,380,Yes,300,200,65,80,85,65,80,85
+Main Suburban,Lidcombe Junction North,Auburn Station South,4,1410,Yes,0,200,200,200,200,200,200,200
+Auburn Station,Auburn Station South,Auburn Station North,4,160,Yes,0,200,200,200,200,200,200,200
+Main Suburban,Auburn Station North,Auburn Maintence Centre South,4,270,Yes,0,200,200,200,200,200,200,200
+Main Suburban,Auburn Maintence Centre South,Auburn Curve,4,790,Yes,0,200,200,200,200,200,200,200
+Main Suburban,Auburn Curve,Auburn Maintence Centre North,4,640,Yes,1900,200,170,200,200,170,200,200
+Main Suburban,Auburn Maintence Centre North,Clyde Station East,6,170,Yes,0,200,200,200,200,200,200,200
+Clyde Station,Clyde Station East,Clyde Station West,6,160,Yes,0,200,200,200,200,200,200,200
+Main Suburban,Clyde Station West,Granville Station East,5,410,Yes,0,200,200,200,200,200,200,200
+Granville Station,Granville Station East,Granville Station West,4,180,Yes,0,200,200,200,200,200,200,200
+Main Suburban,Granville Station West,Granville Junction East,4,160,Yes,0,200,200,200,200,200,200,200
+Granville Junction,Granville Junction East,Granville Junction North,4,660,Yes,900,200,115,145,155,115,145,155
+Granville Junction,Granville Junction East,Granville Junction West,2,600,Yes,600,200,95,115,125,95,115,125
+Granville Junction,Granville Junction North,Granville Junction West,2,440,Yes,200,200,50,65,70,50,65,70
+Main Western,Granville Junction North,Harris Park Station South,4,290,Yes,900,200,115,145,155,115,145,155
+Harris Park Station,Harris Park Station South,Harris Park Station North,4,170,Yes,900,200,115,145,155,115,145,155
+Main Western,Harris Park Station North,Parramatta Station East,4,510,Yes,600,200,95,115,125,95,115,125
+Paramatta Station,Parramatta Station East,Parramatta Station West,4,220,Yes,600,200,95,115,125,95,115,125
+Main Western,Parramatta Station West,Parramatta Straight,4,130,Yes,600,200,95,115,125,95,115,125
+Main Western,Parramatta Straight,Parramatta Curve,4,350,Yes,0,200,200,200,200,200,200,200
+Main Western,Parramatta Curve,Westmead Bend,4,540,Yes,800,200,110,135,145,110,135,145
+Main Western,Westmead Bend,Westmead Station East,4,730,Yes,1100,200,130,160,175,130,160,175
+Westmead Station,Westmead Station East,Westmead Station West,4,160,Yes,1200,200,135,165,180,135,165,180
+Main Western,Westmead Station West,Wentworthville Station East,4,1310,Yes,1200,200,135,165,180,135,165,180
+Wentworthville Station,Wentworthville Station East,Wentworthville Station West,4,160,Yes,1500,200,150,190,200,150,190,200
+Main Western,Wentworthville Station West,Pendle Hill Bend,4,980,Yes,1500,200,150,190,200,150,190,200
+Pendle Hill Station,Pendle Hill Bend,Pendle Hill Station South,4,530,Yes,1100,200,130,160,175,130,160,175
+Main Western,Pendle Hill Station South,Pendle Hill Station North,4,160,Yes,1100,200,130,160,175,130,160,175
+Main Western,Pendle Hill Station North,Pendle Hill Straight,4,780,Yes,1100,200,130,160,175,130,160,175
+Main Western,Pendle Hill Straight,Toongabbie Station South,4,740,Yes,0,200,200,200,200,200,200,200
+Toongabbie Station,Toongabbie Station South,Toongabbie Station North,4,160,Yes,1700,200,160,200,200,160,200,200
+Main Western,Toongabbie Station North,Seven Hills Station East,4,1940,Yes,1700,200,160,200,200,160,200,200
+Seven Hills Station,Seven Hills Station East,Seven Hills Station West,4,160,Yes,1700,200,160,200,200,160,200,200
+Main Western,Seven Hills Station West,Seven Hills Curve,4,1190,Yes,2100,200,180,200,200,180,200,200
+Main Western,Seven Hills Curve,Blacktown Split,5,1300,Yes,1500,200,150,190,200,150,190,200
+Main Western,Blacktown Split,Blacktown Western Station East,5,180,Yes,0,200,200,200,200,200,200,200
+Blacktown Western Station,Blacktown Western Station East,Blacktown Western Station West,5,200,Yes,0,200,200,200,200,200,200,200
+Main Western,Blacktown Western Station West,Doonside Curve,4,2430,Yes,0,200,200,200,200,200,200,200
+Main Western,Doonside Curve,Doonside Station East,4,1060,Yes,2100,200,180,200,200,180,200,200
+Doonside Station,Doonside Station East,Doonside Station West,4,170,Yes,2100,200,180,200,200,180,200,200
+Main Western,Doonside Station West,Rooty Hill Station East,4,2140,Yes,0,200,200,200,200,200,200,200
+Rooty Hill Station,Rooty Hill Station East,Rooty Hill Station West,4,190,Yes,2000,200,175,200,200,175,200,200
+Main Western,Rooty Hill Station West,Rooty Hill Straight,4,750,Yes,2000,200,175,200,200,175,200,200
+Main Western,Rooty Hill Straight,Mount Druitt Station East,4,1460,Yes,0,200,200,200,200,200,200,200
+Mount Druitt Station,Mount Druitt Station East,Mount Druitt Station West,4,170,Yes,0,200,200,200,200,200,200,200
+Main Western,Mount Druitt Station West,St Mary's Station East,4,3940,Yes,0,200,200,200,200,200,200,200
+St Mary's Station,St Mary's Station East,St Mary's Station West,4,210,Yes,0,200,200,200,200,200,200,200
+Main Western,St Mary's Station West,St Mary's Cargo Terminal,3,270,Yes,0,200,200,200,200,200,200,200
+Main Western,St Mary's Cargo Terminal,Werrington Station East,2,1190,Yes,0,200,200,200,200,200,200,200
+Werrington Station,Werrington Station East,Werrington Station West,2,200,Yes,0,200,200,200,200,200,200,200
+Main Western,Werrington Station West,Werrington Curve,2,710,Yes,0,200,200,200,200,200,200,200
+Main Western,Werrington Curve,Werrington Straight,2,480,Yes,1500,200,150,190,200,150,190,200
+Main Western,Werrington Straight,Kingswood Curve,2,1590,Yes,0,200,200,200,200,200,200,200
+Main Western,Kingswood Curve,Kingswood Straight,2,520,Yes,1700,200,160,200,200,160,200,200
+Main Western,Kingswood Straight,Kingswood Station East,2,120,Yes,0,200,200,200,200,200,200,200
+Kingswood Station,Kingswood Station East,Kingswood Station West,2,160,Yes,0,200,200,200,200,200,200,200
+Main Western,Kingswood Station West,Kingswood Bend,2,580,Yes,0,200,200,200,200,200,200,200
+Main Western,Kingswood Bend,Penrith Curve,2,550,Yes,1600,200,155,195,200,155,195,200
+Main Western,Penrith Curve,Penrith Station East,2,1070,Yes,2000,200,175,200,200,175,200,200
+Penrith Station,Penrith Station East,Penrith Station West,3,200,Yes,0,200,200,200,200,200,200,200
+Main Western,Penrith Station West,Penrith Yards West,2,590,Yes,0,200,200,200,200,200,200,200
+Main Western,Penrith Yards West,Victoria Bridge Bend,2,880,Yes,1400,200,145,180,195,145,180,195
+Main Western,Victoria Bridge Bend,Emu Plains Straight,2,410,Yes,300,200,65,80,85,65,80,85
+Main Western,Emu Plains Straight,Emu Plains Station East,2,290,Yes,0,200,200,200,200,200,200,200
+Emu Plains Station,Emu Plains Station East,Emu Plains Station West,2,200,Yes,0,200,200,200,200,200,200,200
+Main Western,Emu Plains Station West,Emu Plains Curve,2,1270,Yes,0,200,200,200,200,200,200,200
+Main Western,Emu Plains Curve,Emu Plains Bend,2,780,Yes,600,200,95,115,125,95,115,125
+Main Western,Emu Plains Bend,Lapstone Creek,2,1150,Yes,300,200,65,80,85,65,80,85
+Main Western,Lapstone Creek,Knapsack Gully,2,1340,Yes,600,200,95,115,125,95,115,125
+Main Western,Knapsack Gully,Lapstone Station North,2,1440,Yes,400,200,75,95,100,75,95,100
+Lapstone Station,Lapstone Station North,Lapstone Station South,2,180,Yes,700,200,100,125,135,100,125,135
+Main Western,Lapstone Station South,Glenbrook Gorge,2,1510,Yes,400,200,75,95,100,75,95,100
+Main Western,Glenbrook Gorge,Chalmers Lookout,2,370,Yes,200,200,50,65,70,50,65,70
+Main Western,Chalmers Lookout,Glenbrook Station East,2,1420,Yes,300,200,65,80,85,65,80,85
+Glenbrook Station,Glenbrook Station East,Glenbrook Station West,2,180,Yes,600,200,95,115,125,95,115,125
+Main Western,Glenbrook Station West,Blaxland Bend,2,2030,Yes,600,200,95,115,125,95,115,125
+Main Western,Blaxland Bend,Blaxland Straight,2,470,Yes,400,200,75,95,100,75,95,100
+Main Western,Blaxland Straight,Blaxland Curve,2,730,Yes,1400,200,145,180,195,145,180,195
+Main Western,Blaxland Curve,Blaxland Station East,2,1000,Yes,300,200,65,80,85,65,80,85
+Blaxland Station,Blaxland Station East,Blaxland Station West,2,180,Yes,800,200,110,135,145,110,135,145
+Main Western,Blaxland Station West,Blaxland Bends South,2,1160,Yes,800,200,110,135,145,110,135,145
+Main Western,Blaxland Bends South,Blaxland Bends North,2,320,Yes,300,200,65,80,85,65,80,85
+Main Western,Blaxland Bends North,Warrimoo Station East,2,1170,Yes,900,200,115,145,155,115,145,155
+Warrimoo Station,Warrimoo Station East,Warrimoo Station West,2,170,Yes,400,200,75,95,100,75,95,100
+Main Western,Warrimoo Station West,Warrimoo Bend,2,410,Yes,400,200,75,95,100,75,95,100
+Main Western,Warrimoo Bend,Warrimoo Curves,2,400,Yes,200,200,50,65,70,50,65,70
+Main Western,Warrimoo Curves,Waratah Road Bend,2,540,Yes,1000,200,125,150,165,125,150,165
+Main Western,Waratah Road Bend,Green Parade Curves,2,530,Yes,300,200,65,80,85,65,80,85
+Main Western,Green Parade Curves,Valley Heights Curve South,2,670,Yes,600,200,95,115,125,95,115,125
+Main Western,Valley Heights Curve South,Valley Heights Station South,3,400,Yes,1000,200,125,150,165,125,150,165
+Valley Heights Station,Valley Heights Station South,Valley Heights Station North,3,180,Yes,1000,200,125,150,165,125,150,165
+Main Western,Valley Heights Station North,Valley Heights Straight,2,430,Yes,200,200,50,65,70,50,65,70
+Main Western,Valley Heights Straight,Rollys Hill Bend,2,340,Yes,1500,200,150,190,200,150,190,200
+Main Western,Rollys Hill Bend,Macquarie Road Curve,2,880,Yes,250,200,60,70,80,60,70,80
+Main Western,Macquarie Road Curve,Springwood Station North,2,470,Yes,500,200,85,105,115,85,105,115
+Springwood Station,Springwood Station North,Springwood Station South,2,190,Yes,250,200,60,70,80,60,70,80
+Main Western,Springwood Station South,Springwood Straight,2,630,Yes,400,200,75,95,100,75,95,100
+Main Western,Springwood Straight,Faulconbridge Curve,2,1300,Yes,1200,200,135,165,180,135,165,180
+Main Western,Faulconbridge Curve,Faulconbridge Station North,2,1140,Yes,300,200,65,80,85,65,80,85
+Faulconbridge Station,Faulconbridge Station North,Faulconbridge Station South,2,190,Yes,1000,200,125,150,165,125,150,165
+Main Western,Faulconbridge Station South,Ticehurst Bend,2,1000,Yes,600,200,95,115,125,95,115,125
+Main Western,Ticehurst Bend,Sassafras Ridge,2,650,Yes,400,200,75,95,100,75,95,100
+Main Western,Sassafras Ridge,Todarellos Fruit Bend,2,750,Yes,700,200,100,125,135,100,125,135
+Main Western,Todarellos Fruit Bend,Linden Bend,2,660,Yes,1100,200,130,160,175,130,160,175
+Main Western,Linden Bend,Linden Station East,2,630,Yes,400,200,75,95,100,75,95,100
+Linden Station,Linden Station East,Linden Station West,2,130,Yes,400,200,75,95,100,75,95,100
+Main Western,Linden Station West,Linden RFS,2,640,Yes,1100,200,130,160,175,130,160,175
+Main Western,Linden RFS,Woodford Bends,2,2150,Yes,400,200,75,95,100,75,95,100
+Main Western,Woodford Bends,Woodford Station East,2,610,Yes,200,200,50,65,70,50,65,70
+Main Western,Woodford Station East,Woodford Station West,2,200,Yes,300,200,65,80,85,65,80,85
+Main Western,Woodford Station West,Woodford Bend,2,890,Yes,900,200,115,145,155,115,145,155
+Main Western,Woodford Bend,Hazelbrook Gentle,2,1350,Yes,500,200,85,105,115,85,105,115
+Main Western,Hazelbrook Gentle,Hazelbrook Station South,2,670,Yes,800,200,110,135,145,110,135,145
+Hazelbrook Station,Hazelbrook Station South,Hazelbrook Station North,2,190,Yes,600,200,95,115,125,95,115,125
+Main Western,Hazelbrook Station North,Hazelbrook Bend,2,960,Yes,600,200,95,115,125,95,115,125
+Main Western,Hazelbrook Bend,Lawson Straight,2,620,Yes,300,200,65,80,85,65,80,85
+Main Western,Lawson Straight,Lawson Bend,2,610,Yes,600,200,95,115,125,95,115,125
+Main Western,Lawson Bend,Lawson Station East,2,200,Yes,500,200,85,105,115,85,105,115
+Lawson Station,Lawson Station East,Lawson Station West,2,190,Yes,1600,200,155,195,200,155,195,200
+Main Western,Lawson Station West,Lawson Upper Bend,2,640,Yes,1600,200,155,195,200,155,195,200
+Main Western,Lawson Upper Bend,Bullaburra Station East,2,800,Yes,300,200,65,80,85,65,80,85
+Bullaburra Station,Bullaburra Station East,Bullaburra Station West,2,200,Yes,300,200,65,80,85,65,80,85
+Main Western,Bullaburra Station West,Bullaburra Bend,2,600,Yes,700,200,100,125,135,100,125,135
+Main Western,Bullaburra Bend,Bullaburra Curves,2,410,Yes,300,200,65,80,85,65,80,85
+Main Western,Bullaburra Curves,Bullaburra Bend 2,2,490,Yes,500,200,85,105,115,85,105,115
+Main Western,Bullaburra Bend 2,Bodington Hill,2,1020,Yes,300,200,65,80,85,65,80,85
+Main Western,Bodington Hill,Wentworth Falls Station South,2,2230,Yes,900,200,115,145,155,115,145,155
+Wentworth Falls Station,Wentworth Falls Station South,Wentworth Falls Station North,2,180,Yes,900,200,115,145,155,115,145,155
+Main Western,Wentworth Falls Station North,Blue Mountains Grammar School,2,1150,Yes,500,200,85,105,115,85,105,115
+Main Western,Blue Mountains Grammar School,Kedumba Park Bends,2,930,Yes,800,200,110,135,145,110,135,145
+Main Western,Kedumba Park Bends,Kedumba Park Straight,2,670,Yes,300,200,65,80,85,65,80,85
+Main Western,Kedumba Park Straight,Leura Bend,2,830,Yes,900,200,115,145,155,115,145,155
+Main Western,Leura Bend,Leura Station East,2,1200,Yes,300,200,65,80,85,65,80,85
+Leura Station,Leura Station East,Leura Station West,2,180,Yes,300,200,65,80,85,65,80,85
+Main Western,Leura Station West,Leura Upper Bend,2,650,Yes,1100,200,130,160,175,130,160,175
+Main Western,Leura Upper Bend,Katoomba Bend,2,720,Yes,250,200,60,70,80,60,70,80
+Main Western,Katoomba Bend,Katoomba Station East,2,750,Yes,400,200,75,95,100,75,95,100
+Katoomba Station,Katoomba Station East,Katoomba Station West,3,220,Yes,300,200,65,80,85,65,80,85
+Richmond,Blacktown Split,Blacktown Richmond Station South,2,180,Yes,600,200,95,115,125,95,115,125
+Blacktown Richmond Station,Blacktown Richmond Station South,Blacktown Richmond Station North,2,170,Yes,600,200,95,115,125,95,115,125
+Richmond,Blacktown Richmond Station North,Blacktown Yards South,2,210,Yes,600,200,95,115,125,95,115,125
+Richmond,Blacktown Yards South,Blacktown Yards North,2,980,Yes,0,200,200,200,200,200,200,200
+Richmond,Blacktown Yards North,Marayong Curve,2,890,Yes,0,200,200,200,200,200,200,200
+Richmond,Marayong Curve,Marayong Station South,2,270,Yes,800,200,110,135,145,110,135,145
+Marayong Station,Marayong Station South,Marayong Station North,2,170,Yes,0,200,200,200,200,200,200,200
+Richmond,Marayong Station North,Marayong Bend,2,410,Yes,0,200,200,200,200,200,200,200
+Richmond,Marayong Bend,Marayong Straight,2,570,Yes,800,200,110,135,145,110,135,145
+Richmond,Marayong Straight,Quakers Hill Straight,2,850,Yes,2000,200,175,200,200,175,200,200
+Richmond,Quakers Hill Straight,Quakers Hill Station South,2,520,Yes,0,200,200,200,200,200,200,200
+Quakers Hill Station,Quakers Hill Station South,Quakers Hill Station North,2,170,Yes,0,200,200,200,200,200,200,200
+Richmond,Quakers Hill Station North,Schofields Curve,2,1880,Yes,0,200,200,200,200,200,200,200
+Richmond,Schofields Curve,Schofields Station South,2,840,Yes,2000,200,175,200,200,175,200,200
+Schofields Station,Schofields Station South,Schofields Station North,2,170,Yes,2000,200,175,200,200,175,200,200
+Richmond,Schofields Station North,Riverstone Station South,1,2950,Yes,0,200,200,200,200,200,200,200
+Richmond,Riverstone Station South,Riverstone Station North,2,170,Yes,0,200,200,200,200,200,200,200
+Riverstone Station,Riverstone Station North,Riverstone Bend,1,930,Yes,0,200,200,200,200,200,200,200
+Richmond,Riverstone Bend,Riverstone Curve,1,620,Yes,1000,200,125,150,165,125,150,165
+Richmond,Riverstone Curve,Vineyard Station South,1,1550,Yes,1600,200,155,195,200,155,195,200
+Vineyard Station,Vineyard Station South,Vineyard Station North,1,180,Yes,1600,200,155,195,200,155,195,200
+Richmond,Vineyard Station North,Mulgrave Bend,1,2800,Yes,0,200,200,200,200,200,200,200
+Richmond,Mulgrave Bend,Mulgrave Station East,1,370,Yes,800,200,110,135,145,110,135,145
+Mulgrave Station,Mulgrave Station East,Mulgrave Station West,2,170,Yes,800,200,110,135,145,110,135,145
+Richmond,Mulgrave Station West,Gosper Park,1,1150,Yes,800,200,110,135,145,110,135,145
+Richmond,Gosper Park,Windsor Station East,1,1140,Yes,1100,200,130,160,175,130,160,175
+Windsor Station,Windsor Station East,Windsor Station West,1,170,Yes,600,200,95,115,125,95,115,125
+Richmond,Windsor Station West,Windsor Straight,1,150,Yes,600,200,95,115,125,95,115,125
+Richmond,Windsor Straight,Clarendon Curve,1,1410,Yes,0,200,200,200,200,200,200,200
+Richmond,Clarendon Curve,Clarendon Station East,1,430,Yes,1100,200,130,160,175,130,160,175
+Clarendon Station,Clarendon Station East,Clarendon Station West,2,170,Yes,1100,200,130,160,175,130,160,175
+Richmond,Clarendon Station West,Clarendon Straight,2,300,Yes,1200,200,135,165,180,135,165,180
+Richmond,Clarendon Straight,East Richmond Station East,1,2320,Yes,0,200,200,200,200,200,200,200
+East Richmond Station,East Richmond Station East,East Richmond Station West,1,170,Yes,0,200,200,200,200,200,200,200
+Richmond,East Richmond Station West,Richmond Station East,1,530,Yes,0,200,200,200,200,200,200,200
+Richmond Station,Richmond Station East,Richmond Station West,2,170,Yes,0,200,200,200,200,200,200,200
+Old Southern,Granville Junction West,Merrylands Straight,4,540,Yes,600,200,95,115,125,95,115,125
+Old Southern,Merrylands Straight,Merrylands Station North,2,770,Yes,0,200,200,200,200,200,200,200
+Merrylands Station,Merrylands Station North,Merrylands Station South,2,170,Yes,0,200,200,200,200,200,200,200
+Old Southern,Merrylands Station South,Guildford Straight,2,1000,Yes,600,200,95,115,125,95,115,125
+Old Southern,Guildford Straight,Guildford Station North,2,1100,Yes,0,200,200,200,200,200,200,200
+Guildford Station,Guildford Station North,Guildford Station South,2,160,Yes,0,200,200,200,200,200,200,200
+Old Southern,Guildford Station South,Guildford Curve,2,210,Yes,0,200,200,200,200,200,200,200
+Old Southern,Guildford Curve,Yennora Straight,2,600,Yes,1400,200,145,180,195,145,180,195
+Old Southern,Yennora Straight,Yennora Freight Branch,2,170,Yes,0,200,200,200,200,200,200,200
+Old Southern,Yennora Freight Branch,Yennora Station East,2,570,Yes,0,200,200,200,200,200,200,200
+Yennora Station,Yennora Station East,Yennora Station West,2,170,Yes,0,200,200,200,200,200,200,200
+Old Southern,Yennora Station West,Fairfield Station East,2,1400,Yes,0,200,200,200,200,200,200,200
+Fairfield Station,Fairfield Station East,Fairfield Station West,2,160,Yes,1100,200,130,160,175,130,160,175
+Old Southern,Fairfield Station West,Fairfield Straight,2,200,Yes,1100,200,130,160,175,130,160,175
+Old Southern,Fairfield Straight,Canley Vale Station North,2,1620,Yes,0,200,200,200,200,200,200,200
+Canley Vale Station,Canley Vale Station North,Canley Vale Station South,2,160,Yes,0,200,200,200,200,200,200,200
+Old Southern,Canley Vale Station South,Canley Vale Straight,2,340,Yes,0,200,200,200,200,200,200,200
+Old Southern,Canley Vale Straight,Cabramatta Split,2,280,Yes,1300,200,140,175,190,140,175,190
+Main Southern,Lidcombe Junction South,Berala Straight,2,280,Yes,400,200,75,95,100,75,95,100
+Main Southern,Berala Straight,Berala Curve,2,610,Yes,0,200,200,200,200,200,200,200
+Main Southern,Berala Curve,Berala Station West,2,270,Yes,400,200,75,95,100,75,95,100
+Berala Station,Berala Station West,Berala Station East,2,160,Yes,0,200,200,200,200,200,200,200
+Main Southern,Berala Station East,Campbell Street Straight,2,220,Yes,900,200,115,145,155,115,145,155
+Main Southern,Campbell Street Straight,Campbell Street Curve,2,350,Yes,0,200,200,200,200,200,200,200
+Main Southern,Campbell Street Curve,Regents Park Straight,2,350,Yes,600,200,95,115,125,95,115,125
+Main Southern,Regents Park Straight,Regents Park Curve,2,240,Yes,0,200,200,200,200,200,200,200
+Main Southern,Regents Park Curve,Regents Park Station North,2,180,Yes,700,200,100,125,135,100,125,135
+Regents Park Station,Regents Park Station North,Regents Park Station South,2,160,Yes,700,200,100,125,135,100,125,135
+Main Southern,Regents Park Station South,Sefton Junction North,2,250,Yes,700,200,100,125,135,100,125,135
+Sefton Junction,Sefton Junction North,Sefton Junction West,2,450,Yes,700,200,100,125,135,100,125,135
+Sefton Junction,Sefton Junction North,Sefton Junction South,2,450,Yes,500,200,85,105,115,85,105,115
+Sefton Junction,Sefton Junction South,Sefton Junction West,3,530,Yes,200,200,50,65,70,50,65,70
+Sefton Junction,Sefton Junction South,Sefton Split,3,80,Yes,200,200,50,65,70,50,65,70
+Main Southern,Sefton Junction West,Sefton Station East,3,470,Yes,0,200,200,200,200,200,200,200
+Main Southern,Sefton Station East,Sefton Station West,3,160,Yes,0,200,200,200,200,200,200,200
+Main Southern,Sefton Station West,Chester Hill Station East,3,950,Yes,0,200,200,200,200,200,200,200
+Chester Hill Station,Chester Hill Station East,Chester Hill Station West,3,160,Yes,0,200,200,200,200,200,200,200
+Main Southern,Chester Hill Station West,Leightonfield Freight Yards,3,620,Yes,0,200,200,200,200,200,200,200
+Main Southern,Leightonfield Freight Yards,Leightonfield Station East,3,580,Yes,0,200,200,200,200,200,200,200
+Leightonfield Station,Leightonfield Station East,Leightonfield Station West,3,160,Yes,0,200,200,200,200,200,200,200
+Main Southern,Leightonfield Station West,Villawood Station East,3,670,Yes,2800,200,200,200,200,200,200,200
+Villawood Station,Villawood Station East,Villawood Station West,3,160,Yes,1500,200,150,190,200,150,190,200
+Main Southern,Villawood Station West,Villawood Straight,3,340,Yes,1500,200,150,190,200,150,190,200
+Main Southern,Villawood Straight,Carramar Station East,3,900,Yes,0,200,200,200,200,200,200,200
+Carramar Station,Carramar Station East,Carramar Station West,3,170,Yes,0,200,200,200,200,200,200,200
+Main Southern,Carramar Station West,White Eagle Curve,3,1600,Yes,0,200,200,200,200,200,200,200
+Main Southern,White Eagle Curve,Cabramatta Split,3,540,Yes,800,200,110,135,145,110,135,145
+Main Southern,Cabramatta Split,Cabramatta Station North,3,230,Yes,1300,200,140,175,190,140,175,190
+Cabramatta Station,Cabramatta Station North,Cabramatta Station South,3,170,Yes,1300,200,140,175,190,140,175,190
+Bankstown,Sefton Split,Birrong Bend,2,390,Yes,200,200,50,65,70,50,65,70
+Bankstown,Birrong Bend,Birrong Station North,2,160,Yes,0,200,200,200,200,200,200,200
+Birrong Station,Birrong Station North,Birrong Station South,2,160,Yes,0,200,200,200,200,200,200,200
+Bankstown,Birrong Station South,O Neill Park Curve,2,810,Yes,2500,200,200,200,200,200,200,200
+Bankstown,O Neill Park Curve,Yagoona Straight,2,270,Yes,400,200,75,95,100,75,95,100
+Bankstown,Yagoona Straight,Yagoona Station North,2,310,Yes,0,200,200,200,200,200,200,200
+Yagoona Station,Yagoona Station North,Yagoona Station South,2,160,Yes,0,200,200,200,200,200,200,200
+Bankstown,Yagoona Station South,Yagoona Curve,2,640,Yes,0,200,200,200,200,200,200,200
+Bankstown,Yagoona Curve,Bankstown Station West,2,1040,Yes,400,200,75,95,100,75,95,100
+Bankstown Station,Bankstown Station West,Bankstown Station East,2,160,Yes,0,200,200,200,200,200,200,200
+Bankstown,Bankstown Station East,Bankstown Curve,2,420,Yes,0,200,200,200,200,200,200,200
+Bankstown,Bankstown Curve,Bankstown Straight,2,550,Yes,700,200,100,125,135,100,125,135
+Bankstown,Bankstown Straight,Punchbowl Curve,2,780,Yes,0,200,200,200,200,200,200,200
+Bankstown,Punchbowl Curve,Punchbowl Station East,2,360,Yes,500,200,85,105,115,85,105,115
+Punchbowl Station,Punchbowl Station East,Punchbowl Station West,2,160,Yes,1000,200,125,150,165,125,150,165
+Bankstown,Punchbowl Station West,Punchbowl Straight,2,540,Yes,1100,200,130,160,175,130,160,175
+Bankstown,Punchbowl Straight,Wiley Park Station West,2,390,Yes,0,200,200,200,200,200,200,200
+Wiley Park Station,Wiley Park Station West,Wiley Park Station East,2,160,Yes,0,200,200,200,200,200,200,200
+Bankstown,Wiley Park Station East,Lakemba Station East,2,700,Yes,0,200,200,200,200,200,200,200
+Lakemba Station,Lakemba Station East,Lakemba Station West,2,170,Yes,0,200,200,200,200,200,200,200
+Bankstown,Lakemba Station West,Belmore Station East,2,1070,Yes,1900,200,170,200,200,170,200,200
+Belmore Station,Belmore Station East,Belmore Station West,2,170,Yes,1900,200,170,200,200,170,200,200
+Bankstown,Belmore Station West,Campsie Split,2,880,Yes,800,200,110,135,145,110,135,145
+Bankstown,Campsie Split,Campsie Station West,4,510,Yes,500,200,85,105,115,85,105,115
+Campsie Station,Campsie Station West,Campsie Station East,4,170,Yes,0,200,200,200,200,200,200,200
+Bankstown,Campsie Station East,Campsie Curve,4,720,Yes,0,200,200,200,200,200,200,200
+Bankstown,Campsie Curve,Canterbury Bridge,4,350,Yes,300,200,65,80,85,65,80,85
+Bankstown,Canterbury Bridge,Canterbury Station West,4,300,Yes,0,200,200,200,200,200,200,200
+Canterbury Station,Canterbury Station West,Canterbury Station East,4,170,Yes,0,200,200,200,200,200,200,200
+Bankstown,Canterbury Station East,Canterbury Curve,4,410,Yes,500,200,85,105,115,85,105,115
+Bankstown,Canterbury Curve,Hurlstone Park Station West,4,780,Yes,1400,200,145,180,195,145,180,195
+Hurlstone Park Station,Hurlstone Park Station West,Hurlstone Park Station East,4,160,Yes,1400,200,145,180,195,145,180,195
+Bankstown,Hurlstone Park Station East,Terrace Road,4,550,Yes,500,200,85,105,115,85,105,115
+Bankstown,Terrace Road,Dulwich Hill Station West,4,230,Yes,800,200,110,135,145,110,135,145
+Dulwich Hill Station,Dulwich Hill Station West,Dulwich Hill Station East,4,170,Yes,800,200,110,135,145,110,135,145
+Bankstown,Dulwich Hill Station East,Dulwich Hill Curve,4,690,Yes,800,200,110,135,145,110,135,145
+Bankstown,Dulwich Hill Curve,Marrickville Split,4,390,Yes,1100,200,130,160,175,130,160,175
+Bankstown,Marrickville Split,Marrickville Station West,4,60,Yes,1100,200,130,160,175,130,160,175
+Marrickville Station,Marrickville Station West,Marrickville Station East,4,170,Yes,1100,200,130,160,175,130,160,175
+Bankstown,Marrickville Station East,Sydenham Outer Junction West,4,360,Yes,1900,200,170,200,200,170,200,200
+Sydenham Junction,Sydenham Outer Junction West,Sydenham Inner Junction Curve,2,290,Yes,1900,200,170,200,200,170,200,200
+Sydenham Junction,Sydenham Inner Junction Curve,Sydenham Outer Junction East,2,130,Yes,300,200,65,80,85,65,80,85
+Sydenham Junction,Sydenham Outer Junction East,Bankstown Split,4,130,Yes,300,200,65,80,85,65,80,85
+Sydenham Junction,Marrickville Split,O Hara Curve,2,320,Yes,600,200,95,115,125,95,115,125
+Sydenham Junction,O Hara Curve,Sydenham Inner Junction North,2,350,Yes,300,200,65,80,85,65,80,85
+Sydenham Junction,Sydenham Inner Junction North,Sydenham Inner Junction East,2,190,Yes,300,200,65,80,85,65,80,85
+Sydenham Junction,Sydenham Inner Junction North,Sydenham Inner Junction South,3,220,Yes,200,200,50,65,70,50,65,70
+Sydenham Junction,Sydenham Inner Junction East,Sydenham Inner Junction South,2,250,Yes,200,200,50,65,70,50,65,70
+Sydenham Junction,Sydenham Inner Junction East,Sydenham Outer Junction East,3,220,Yes,1300,200,140,175,190,140,175,190
+Sydenham Junction,Sydenham Inner Junction South,Sydenham Outer Junction South,3,370,Yes,1200,200,135,165,180,135,165,180
+Illawara,Redfern Split,Eveleigh Railway Yards South,4,660,Yes,700,200,100,125,135,100,125,135
+Illawara,Eveleigh Railway Yards South,Erskineville Station North,4,100,Yes,700,200,100,125,135,100,125,135
+Erskineville Station,Erskineville Station North,Erskineville Station South,4,160,Yes,700,200,100,125,135,100,125,135
+Illawara,Erskineville Station South,Erskineville Curve,4,240,Yes,0,200,200,200,200,200,200,200
+Illawara,Erskineville Curve,St Peters East,4,520,Yes,600,200,95,115,125,95,115,125
+St Peters Station,St Peters East,St Peters West,4,160,Yes,0,200,200,200,200,200,200,200
+Illawara,St Peters West,St Peters Curve,4,240,Yes,0,200,200,200,200,200,200,200
+Illawara,St Peters Curve,Sydenham Straight,4,380,Yes,800,200,110,135,145,110,135,145
+Illawara,Sydenham Straight,Sydenham Station East,4,720,Yes,0,200,200,200,200,200,200,200
+Sydenham Station,Sydenham Station East,Sydenham Station West,6,160,Yes,0,200,200,200,200,200,200,200
+Illawara,Sydenham Station West,Bankstown Split,6,200,Yes,0,200,200,200,200,200,200,200
+Illawara,Bankstown Split,Sydenham Bend,4,550,Yes,0,200,200,200,200,200,200,200
+Illawara,Sydenham Bend,Sydenham Outer Junction South,4,300,Yes,800,200,110,135,145,110,135,145
+Illawara,Sydenham Outer Junction South,Tempe Station North,4,330,Yes,800,200,110,135,145,110,135,145
+Tempe Station,Tempe Station North,Tempe Station South,4,160,Yes,800,200,110,135,145,110,135,145
+Illawara,Tempe Station South,Wolli Creek Station Ground North,4,290,Yes,800,200,110,135,145,110,135,145
+Wolli Creek Ground Station,Wolli Creek Station Ground North,Wolli Creek Station Ground South,4,200,Yes,0,200,200,200,200,200,200,200
+Illawara,Wolli Creek Station Ground South,Wolli Creek Curve,4,290,Yes,0,200,200,200,200,200,200,200
+Illawara,Wolli Creek Curve,Arncliffe Straight,4,310,Yes,900,200,115,145,155,115,145,155
+Illawara,Arncliffe Straight,Arncliffe Station North,4,320,Yes,0,200,200,200,200,200,200,200
+Arncliffe Station,Arncliffe Station North,Arncliffe Station South,4,160,Yes,0,200,200,200,200,200,200,200
+Illawara,Arncliffe Station South,Arncliffe Curve,4,130,Yes,0,200,200,200,200,200,200,200
+Illawara,Arncliffe Curve,Arncliffe South Straight,4,290,Yes,700,200,100,125,135,100,125,135
+Illawara,Arncliffe South Straight,Banksia Curve,4,270,Yes,0,200,200,200,200,200,200,200
+Illawara,Banksia Curve,Banksia Station North,4,330,Yes,1000,200,125,150,165,125,150,165
+Banksia Station,Banksia Station North,Banksia Station South,4,160,Yes,0,200,200,200,200,200,200,200
+Illawara,Banksia Station South,Rockdale Station North,4,650,Yes,0,200,200,200,200,200,200,200
+Rockdale Station,Rockdale Station North,Rockdale Station South,4,160,Yes,0,200,200,200,200,200,200,200
+Illawara,Rockdale Station South,Kogarah Station North,4,1040,Yes,0,200,200,200,200,200,200,200
+Kogarah Station,Kogarah Station North,Kogarah Station South,4,180,Yes,0,200,200,200,200,200,200,200
+Illawara,Kogarah Station South,Carlton Station East,4,950,Yes,800,200,110,135,145,110,135,145
+Carlton Station,Carlton Station East,Carlton Station West,4,160,Yes,0,200,200,200,200,200,200,200
+Illawara,Carlton Station West,Allawah Bend,4,570,Yes,0,200,200,200,200,200,200,200
+Illawara,Allawah Bend,Allawah Station East,4,220,Yes,700,200,100,125,135,100,125,135
+Allawah Station,Allawah Station East,Allawah Station West,4,170,Yes,700,200,100,125,135,100,125,135
+Illawara,Allawah Station West,Hurstville Station East,4,930,Yes,700,200,100,125,135,100,125,135
+Hurstville Station,Hurstville Station East,Hurstville Station West,4,210,Yes,700,200,100,125,135,100,125,135
+Illawara,Hurstville Station West,Hurstville Straight,4,680,Yes,700,200,100,125,135,100,125,135
+Illawara,Hurstville Straight,Penhurst Station East,2,440,Yes,1800,200,165,200,200,165,200,200
+Penhurst Station,Penhurst Station East,Penhurst Station West,2,160,Yes,1800,200,165,200,200,165,200,200
+Illawara,Penhurst Station West,Mortdale Station North,2,770,Yes,1000,200,125,150,165,125,150,165
+Mortdale Station,Mortdale Station North,Mortdale Station South,2,160,Yes,1000,200,125,150,165,125,150,165
+Illawara,Mortdale Station South,Mortdale Maintence Centre,4,240,Yes,1000,200,125,150,165,125,150,165
+Illawara,Mortdale Maintence Centre,Oatley Curve,2,540,Yes,600,200,95,115,125,95,115,125
+Illawara,Oatley Curve,Oatley Station North,2,280,Yes,700,200,100,125,135,100,125,135
+Oatley Station,Oatley Station North,Oatley Station South,2,170,Yes,700,200,100,125,135,100,125,135
+Illawara,Oatley Station South,Oatley Straight,2,860,Yes,500,200,85,105,115,85,105,115
+Illawara,Oatley Straight,Old Como Bridge,2,1100,Yes,3000,200,200,200,200,200,200,200
+Illawara,Old Como Bridge,Como Station North,2,850,Yes,600,200,95,115,125,95,115,125
+Como Station,Como Station North,Como Station South,2,170,Yes,600,200,95,115,125,95,115,125
+Illawara,Como Station South,Jannali Curve,2,460,Yes,400,200,75,95,100,75,95,100
+Illawara,Jannali Curve,Jannali Station North,2,830,Yes,900,200,115,145,155,115,145,155
+Jannali Station,Jannali Station North,Jannali Station South,2,170,Yes,0,200,200,200,200,200,200,200
+Illawara,Jannali Station South,Jannali Straight,2,830,Yes,1700,200,160,200,200,160,200,200
+Illawara,Jannali Straight,Sutherland Station North,2,920,Yes,0,200,200,200,200,200,200,200
+Sutherland Station,Sutherland Station North,Sutherland Station South,3,170,Yes,0,200,200,200,200,200,200,200
+Illawara,Sutherland Station South,Sutherland Split,3,180,Yes,0,200,200,200,200,200,200,200
+Illawara,Sutherland Split,Sutherland Curve,2,330,Yes,0,200,200,200,200,200,200,200
+Illawara,Sutherland Curve,Loftus Station North,2,970,Yes,1700,200,160,200,200,160,200,200
+Loftus Station,Loftus Station North,Loftus Station South,2,170,Yes,0,200,200,200,200,200,200,200
+Illawara,Loftus Station South,Loftus Straight,2,1000,Yes,700,200,100,125,135,100,125,135
+Illawara,Loftus Straight,Engadine Curve,2,2480,Yes,0,200,200,200,200,200,200,200
+Illawara,Engadine Curve,Engadine Station North,2,850,Yes,1800,200,165,200,200,165,200,200
+Engadine Station,Engadine Station North,Engadine Station South,2,170,Yes,1800,200,165,200,200,165,200,200
+Illawara,Engadine Station South,Heathcote Curve,2,1490,Yes,1800,200,165,200,200,165,200,200
+Illawara,Heathcote Curve,Heathcote Station North,2,760,Yes,700,200,100,125,135,100,125,135
+Heathcote Station,Heathcote Station North,Heathcote Station South,2,170,Yes,0,200,200,200,200,200,200,200
+Illawara,Heathcote Station South,Heathcote Straight,2,1120,Yes,0,200,200,200,200,200,200,200
+Illawara,Heathcote Straight,Waterfall Straight,2,1210,Yes,1600,200,155,195,200,155,195,200
+Illawara,Waterfall Straight,Waterfall Curve,2,1170,Yes,0,200,200,200,200,200,200,200
+Illawara,Waterfall Curve,Waterfall Second Straight,3,1060,Yes,2700,200,200,200,200,200,200,200
+Illawara,Waterfall Second Straight,Waterfall Station North,4,840,Yes,0,200,200,200,200,200,200,200
+Waterfall Station,Waterfall Station North,Waterfall Station South,4,170,Yes,0,200,200,200,200,200,200,200
+Illawara,Waterfall Station South,Waterfall Bends,4,140,Yes,0,200,200,200,200,200,200,200
+Illawara,Waterfall Bends,Waterfall Creek,3,880,Yes,600,200,95,115,125,95,115,125
+Illawara,Waterfall Creek,Frews Gully,2,800,Yes,0,200,200,200,200,200,200,200
+Illawara,Frews Gully,Frews Gully Curve,2,340,Yes,300,200,65,80,85,65,80,85
+Illawara,Frews Gully Curve,Jerusalem Gully,2,430,Yes,200,200,50,65,70,50,65,70
+Illawara,Jerusalem Gully,Haslem Gully Straight,2,480,Yes,300,200,65,80,85,65,80,85
+Illawara,Haslem Gully Straight,Haslem Gully Bend,2,340,Yes,0,200,200,200,200,200,200,200
+Illawara,Haslem Gully Bend,Cawleys Creek Bend,2,1400,Yes,300,200,65,80,85,65,80,85
+Illawara,Cawleys Creek Bend,Wilsons Creek Curves,2,1190,Yes,200,200,50,65,70,50,65,70
+Illawara,Wilsons Creek Curves,Wilsons Creek Bend,2,940,Yes,400,200,75,95,100,75,95,100
+Illawara,Wilsons Creek Bend,Helensburgh Station West,2,570,Yes,200,200,50,65,70,50,65,70
+Helensburgh Station,Helensburgh Station West,Helensburgh Station East,2,160,Yes,200,200,50,65,70,50,65,70
+Illawara,Helensburgh Station East,Helensburgh Bend,2,490,Yes,200,200,50,65,70,50,65,70
+Illawara,Helensburgh Bend,Helensburgh Straight,2,430,Yes,400,200,75,95,100,75,95,100
+Illawara,Helensburgh Straight,Helensburgh Curve,2,380,Yes,0,200,200,200,200,200,200,200
+Illawara,Helensburgh Curve,Hacking River Curves,2,470,Yes,300,200,65,80,85,65,80,85
+Illawara,Hacking River Curves,Hacking River Curve,2,500,Yes,400,200,75,95,100,75,95,100
+Illawara,Hacking River Curve,Camp Gully Colliery,2,330,Yes,700,200,100,125,135,100,125,135
+Illawara,Camp Gully Colliery,Camp Gully Tunnel,2,570,Yes,300,200,65,80,85,65,80,85
+Illawara,Camp Gully Tunnel,Camp Gully Bends,2,340,Yes,0,200,200,200,200,200,200,200
+Illawara,Camp Gully Bends,Cedar Gully,2,590,Yes,200,200,50,65,70,50,65,70
+Illawara,Cedar Gully,Hamiltons Gully,2,580,Yes,800,200,110,135,145,110,135,145
+Illawara,Hamiltons Gully,Lady Carrington Bend,2,720,Yes,400,200,75,95,100,75,95,100
+Illawara,Lady Carrington Bend,Otford Station North,2,720,Yes,200,200,50,65,70,50,65,70
+Otford Station,Otford Station North,Otford Station South,2,200,Yes,200,200,50,65,70,50,65,70
+Illawara,Otford Station South,Otford Straight,2,410,Yes,300,200,65,80,85,65,80,85
+Illawara,Otford Straight,Otford Bend,2,410,Yes,1700,200,160,200,200,160,200,200
+Illawara,Otford Bend,Otford Curve,2,610,Yes,300,200,65,80,85,65,80,85
+Illawara,Otford Curve,Stanwell Park Bend,2,1230,Yes,500,200,85,105,115,85,105,115
+Illawara,Stanwell Park Bend,Stanwell Park Station North,2,440,Yes,200,200,50,65,70,50,65,70
+Stanwell Park,Stanwell Park Station North,Stanwell Park Station South,2,190,Yes,300,200,65,80,85,65,80,85
+Illawara,Stanwell Park Station South,Stanwell Park Curve,2,450,Yes,600,200,95,115,125,95,115,125
+Illawara,Stanwell Park Curve,Stanwell Park Tunnel,2,740,Yes,200,200,50,65,70,50,65,70
+Illawara,Stanwell Park Tunnel,Stanwell Park Coast Bend,2,540,Yes,700,200,100,125,135,100,125,135
+Illawara,Stanwell Park Coast Bend,Stanwell Park Straight,2,670,Yes,200,200,50,65,70,50,65,70
+Illawara,Stanwell Park Straight,Coalcliff Station East,2,730,Yes,1200,200,135,165,180,135,165,180
+Coalcliff Station,Coalcliff Station East,Coalcliff Station West,4,170,Yes,700,200,100,125,135,100,125,135
+Illawara,Coalcliff Station West,Stony Creek Colliery,4,570,Yes,0,200,200,200,200,200,200,200
+Illawara,Stony Creek Colliery,Stony Creek Tunnel North,2,380,Yes,300,200,65,80,85,65,80,85
+Illawara,Stony Creek Tunnel North,Stony Creek Tunnel South,1,1000,Yes,1100,200,130,160,175,130,160,175
+Illawara,Stony Creek Tunnel South,Sea Cliff Curves,1,280,Yes,200,200,50,65,70,50,65,70
+Illawara,Sea Cliff Curves,Scarborough Station North,2,880,Yes,900,200,115,145,155,115,145,155
+Illawara,Scarborough Station North,Scarborough Station South,2,150,Yes,300,200,65,80,85,65,80,85
+Illawara,Scarborough Station South,Scarborugh Straight,2,170,Yes,400,200,75,95,100,75,95,100
+Illawara,Scarborugh Straight,Wombarra Curve,2,960,Yes,700,200,100,125,135,100,125,135
+Illawara,Wombarra Curve,Wombarra Station North,2,510,Yes,400,200,75,95,100,75,95,100
+Wombarra Station,Wombarra Station North,Wombarra Station South,2,170,Yes,300,200,65,80,85,65,80,85
+Illawara,Wombarra Station South,Coledale Bend,2,1330,Yes,400,200,75,95,100,75,95,100
+Illawara,Coledale Bend,Coledale Station North,2,430,Yes,0,200,200,200,200,200,200,200
+Coledale Station,Coledale Station North,Coledale Station South,2,130,Yes,0,200,200,200,200,200,200,200
+Illawara,Coledale Station South,Jacky Jones Gully,2,880,Yes,1000,200,125,150,165,125,150,165
+Illawara,Jacky Jones Gully,Austinmer Straight,2,290,Yes,600,200,95,115,125,95,115,125
+Illawara,Austinmer Straight,Austinmer Station North,2,1040,Yes,0,200,200,200,200,200,200,200
+Austinmer Station,Austinmer Station North,Austinmer Station South,2,160,Yes,0,200,200,200,200,200,200,200
+Illawara,Austinmer Station South,Thirroul Straight,2,540,Yes,1700,200,160,200,200,160,200,200
+Illawara,Thirroul Straight,Thirroul Station North,4,950,Yes,0,200,200,200,200,200,200,200
+Thirroul Station,Thirroul Station North,Thirroul Station South,4,200,Yes,0,200,200,200,200,200,200,200
+Illawara,Thirroul Station South,Thirroul Bend,2,290,Yes,0,200,200,200,200,200,200,200
+Illawara,Thirroul Bend,Thirroul Curve,2,400,Yes,500,200,85,105,115,85,105,115
+Illawara,Thirroul Curve,Bulli Straight,2,540,Yes,800,200,110,135,145,110,135,145
+Illawara,Bulli Straight,Bulli Station North,2,510,Yes,2700,200,200,200,200,200,200,200
+Bulli Station,Bulli Station North,Bulli Station South,2,200,Yes,0,200,200,200,200,200,200,200
+Illawara,Bulli Station South,Woonona Straight,2,1280,Yes,800,200,110,135,145,110,135,145
+Illawara,Woonona Straight,Woonona Station North,2,390,Yes,0,200,200,200,200,200,200,200
+Woonona Station,Woonona Station North,Woonona Station South,2,190,Yes,0,200,200,200,200,200,200,200
+Illawara,Woonona Station South,Bellambi Station North,2,1360,Yes,0,200,200,200,200,200,200,200
+Bellambi Station,Bellambi Station North,Bellambi Station South,2,160,Yes,0,200,200,200,200,200,200,200
+Illawara,Bellambi Station South,Corrimal Station North,2,1290,Yes,0,200,200,200,200,200,200,200
+Corrimal Station,Corrimal Station North,Corrimal Station South,2,160,Yes,0,200,200,200,200,200,200,200
+Illawara,Corrimal Station South,Towradgi Station North,2,890,Yes,0,200,200,200,200,200,200,200
+Towradgi Station,Towradgi Station North,Towradgi Station South,2,180,Yes,0,200,200,200,200,200,200,200
+Illawara,Towradgi Station South,Fairy Meadow Station North,2,1160,Yes,0,200,200,200,200,200,200,200
+Fairy Meadow Station,Fairy Meadow Station North,Fairy Meadow Station South,2,160,Yes,0,200,200,200,200,200,200,200
+Illawara,Fairy Meadow Station South,Fairy Meadow Straight,2,710,Yes,1600,200,155,195,200,155,195,200
+Illawara,Fairy Meadow Straight,North Wollongong Station North,2,1020,Yes,0,200,200,200,200,200,200,200
+North Wollongong Station,North Wollongong Station North,North Wollongong Station South,2,200,Yes,0,200,200,200,200,200,200,200
+Illawara,North Wollongong Station South,Wollongong Station North,2,1410,Yes,0,200,200,200,200,200,200,200
+Wollongong Station,Wollongong Station North,Wollongong Station South,2,200,Yes,0,200,200,200,200,200,200,200
+Illawara,Wollongong Station South,Wollongong Curve,4,790,Yes,0,200,200,200,200,200,200,200
+Illawara,Wollongong Curve,Coniston Station North,2,240,Yes,1100,200,130,160,175,130,160,175
+Coniston Station,Coniston Station North,Coniston Station South,2,180,Yes,1100,200,130,160,175,130,160,175
+Illawara,Coniston Station South,Coniston Junction North,2,50,Yes,1100,200,130,160,175,130,160,175
+Coniston Junction,Coniston Junction North,Port Kembla Terminal,2,320,Yes,200,200,50,65,70,50,65,70
+Coniston Junction,Coniston Junction North,Port Kembla Split,2,190,Yes,1100,200,130,160,175,130,160,175
+Coniston Junction,Port Kembla Split,Port Kembla Merge East,1,290,Yes,1100,200,130,160,175,130,160,175
+Coniston Junction,Port Kembla Merge East,Port Kembla Merge West,3,590,Yes,1100,200,130,160,175,130,160,175
+Coniston Junction,Port Kembla Terminal,Port Kembla Terminal Bend,2,250,Yes,150,200,45,55,60,45,55,60
+Coniston Junction,Port Kembla Terminal Bend,Port Kembla Merge East,2,180,Yes,1100,200,130,160,175,130,160,175
+Coniston Junction,Port Kembla Split,Coniston Junction Straight,2,610,Yes,500,200,85,105,115,85,105,115
+Coniston Junction,Coniston Junction Straight,Port Kembla Merge South,2,490,Yes,0,200,200,200,200,200,200,200
+Coniston Junction,Port Kembla Merge West,Port Kembla Merge South,1,760,Yes,300,200,65,80,85,65,80,85
+Illawara,Port Kembla Merge West,Unanderra Curve,2,790,Yes,1800,200,165,200,200,165,200,200
+Illawara,Unanderra Curve,Unanderra Branch,2,1610,Yes,3300,200,200,200,200,200,200,200
+Illawara,Unanderra Branch,Unanderra Station North,4,500,Yes,3300,200,200,200,200,200,200,200
+Unanderra Station,Unanderra Station North,Unanderra Station South,4,140,Yes,0,200,200,200,200,200,200,200
+Illawara,Unanderra Station South,Unanderra Split,3,670,Yes,0,200,200,200,200,200,200,200
+Illawara,Unanderra Split,Nolan Street Curve,1,370,Yes,0,200,200,200,200,200,200,200
+Illawara,Nolan Street Curve,Kembla Grange Straight,1,930,Yes,1800,200,165,200,200,165,200,200
+Illawara,Kembla Grange Straight,Kembla Grange Curve,1,1060,Yes,0,200,200,200,200,200,200,200
+Illawara,Kembla Grange Curve,Kembla Grange Station East,1,160,Yes,1800,200,165,200,200,165,200,200
+Kembla Grange Station,Kembla Grange Station East,Kembla Grange Station West,1,120,Yes,1800,200,165,200,200,165,200,200
+Illawara,Kembla Grange Station West,Kembla Grange Straight South,1,660,Yes,1800,200,165,200,200,165,200,200
+Illawara,Kembla Grange Straight South,Darkes Road Split,1,1370,Yes,0,200,200,200,200,200,200,200
+Illawara,Darkes Road Split,Dapto North,1,870,Yes,0,200,200,200,200,200,200,200
+Illawara,Dapto North,Dapto Station North,2,380,Yes,0,200,200,200,200,200,200,200
+Dapto Station,Dapto Station North,Dapto Station South,2,200,Yes,0,200,200,200,200,200,200,200
+Illawara,Dapto Station South,Dapto Curve,1,1640,Yes,0,200,200,200,200,200,200,200
+Illawara,Dapto Curve,Dapto Straight,1,980,Yes,1800,200,165,200,200,165,200,200
+Illawara,Dapto Straight,Haywards Bay Bend,1,1780,Yes,0,200,200,200,200,200,200,200
+Illawara,Haywards Bay Bend,Haywards Bay Straight,1,970,Yes,3500,200,200,200,200,200,200,200
+Illawara,Haywards Bay Straight,Creamery Road Bridge,1,2560,Yes,0,200,200,200,200,200,200,200
+Illawara,Creamery Road Bridge,Albion Park Station North,2,160,Yes,0,200,200,200,200,200,200,200
+Albion Park Station,Albion Park Station North,Albion Park Station South,2,200,Yes,800,200,110,135,145,110,135,145
+Illawara,Albion Park Station South,Albion Park Straight,1,330,Yes,800,200,110,135,145,110,135,145
+Illawara,Albion Park Straight,Oak Flats Station West,1,1820,Yes,0,200,200,200,200,200,200,200
+Oak Flats Station,Oak Flats Station West,Oak Flats Station East,1,200,Yes,0,200,200,200,200,200,200,200
+Illawara,Oak Flats Station East,Oak Flats Curve,1,830,Yes,0,200,200,200,200,200,200,200
+Illawara,Oak Flats Curve,Oak Flats Bend,1,1330,Yes,1600,200,155,195,200,155,195,200
+Illawara,Oak Flats Bend,Shellharbour Straight,1,910,Yes,700,200,100,125,135,100,125,135
+Illawara,Shellharbour Straight,Shellharbour Station North,2,110,Yes,0,200,200,200,200,200,200,200
+Shellharbour Station,Shellharbour Station North,Shellharbour Station South,2,170,Yes,0,200,200,200,200,200,200,200
+Illawara,Shellharbour Station South,Dunmore Sand and Soil,2,1750,Yes,0,200,200,200,200,200,200,200
+Illawara,Dunmore Sand and Soil,Minnamurra Bridge,1,1810,Yes,1200,200,135,165,180,135,165,180
+Illawara,Minnamurra Bridge,Minnamurra Straight,1,260,Yes,600,200,95,115,125,95,115,125
+Illawara,Minnamurra Straight,Minnamurra Station North,1,380,Yes,0,200,200,200,200,200,200,200
+Minnamurra Station,Minnamurra Station North,Minnamurra Station South,1,200,Yes,0,200,200,200,200,200,200,200
+Illawara,Minnamurra Station South,Eureka Avenue Straight,1,820,Yes,600,200,95,115,125,95,115,125
+Illawara,Eureka Avenue Straight,Minnamurra Bend,1,530,Yes,0,200,200,200,200,200,200,200
+Illawara,Minnamurra Bend,Cathedral Rocks Straight,1,440,Yes,500,200,85,105,115,85,105,115
+Illawara,Cathedral Rocks Straight,Cathedral Rocks Curve,1,630,Yes,0,200,200,200,200,200,200,200
+Illawara,Cathedral Rocks Curve,Boneyard Bend,1,330,Yes,800,200,110,135,145,110,135,145
+Illawara,Boneyard Bend,Bombo Curve,1,510,Yes,300,200,65,80,85,65,80,85
+Illawara,Bombo Curve,Bombo Quarry,1,470,Yes,800,200,110,135,145,110,135,145
+Illawara,Bombo Quarry,Bombo Station North,1,210,Yes,2100,200,180,200,200,180,200,200
+Bombo Station,Bombo Station North,Bombo Station South,2,200,Yes,2100,200,180,200,200,180,200,200
+Illawara,Bombo Station South,Spring Creek Bridge,2,350,Yes,0,200,200,200,200,200,200,200
+Illawara,Spring Creek Bridge,Kiama Curve,1,850,Yes,700,200,100,125,135,100,125,135
+Illawara,Kiama Curve,Kiama Station North,1,290,Yes,300,200,65,80,85,65,80,85
+Kiama Station,Kiama Station North,Kiama Station South,2,200,Yes,0,200,200,200,200,200,200,200
+Illawara,Kiama Station South,Kiama South Curve,2,580,No,0,200,200,200,200,200,200,200
+Illawara,Kiama South Curve,Kiama Straight,1,870,No,1300,200,140,175,190,140,175,190
+Illawara,Kiama Straight,Loves Bay Curve,1,1440,No,0,200,200,200,200,200,200,200
+Illawara,Loves Bay Curve,Train Walking Lookout,1,1070,No,1700,200,160,200,200,160,200,200
+Illawara,Train Walking Lookout,Bare Bluff Bend,1,520,No,300,200,65,80,85,65,80,85
+Illawara,Bare Bluff Bend,Ocean Farm Curve,1,630,No,800,200,110,135,145,110,135,145
+Illawara,Ocean Farm Curve,Werri Beach Straight,1,1900,No,1800,200,165,200,200,165,200,200
+Illawara,Werri Beach Straight,Gerringong Curve,1,2040,No,0,200,200,200,200,200,200,200
+Illawara,Gerringong Curve,Gerringong Station North,1,190,No,1400,200,145,180,195,145,180,195
+Gerringong Station,Gerringong Station North,Gerringong Station South,1,80,No,1400,200,145,180,195,145,180,195
+Illawara,Gerringong Station South,Crooked River Straight,1,580,No,1400,200,145,180,195,145,180,195
+Illawara,Crooked River Straight,Blue Angle Creek,1,5500,No,0,200,200,200,200,200,200,200
+Illawara,Blue Angle Creek,Ashworth Farm Straight,1,710,No,1100,200,130,160,175,130,160,175
+Illawara,Ashworth Farm Straight,Toolijooa Road Curve,1,1030,No,0,200,200,200,200,200,200,200
+Illawara,Toolijooa Road Curve,Toolijooa Road Straight,1,1080,No,1200,200,135,165,180,135,165,180
+Illawara,Toolijooa Road Straight,David Berry Bend,1,1560,No,0,200,200,200,200,200,200,200
+Illawara,David Berry Bend,David Berry Straight,1,410,No,500,200,85,105,115,85,105,115
+Illawara,David Berry Straight,Berry Curve,1,1190,No,0,200,200,200,200,200,200,200
+Illawara,Berry Curve,Berry Station East,1,160,No,1000,200,125,150,165,125,150,165
+Berry Station,Berry Station East,Berry Station West,2,110,No,0,200,200,200,200,200,200,200
+Illawara,Berry Station West,Berry Straight,2,230,No,0,200,200,200,200,200,200,200
+Illawara,Berry Straight,Berry Bend,1,480,No,0,200,200,200,200,200,200,200
+Illawara,Berry Bend,Berry South Straight,1,690,No,700,200,100,125,135,100,125,135
+Illawara,Berry South Straight,Jaspers Creek Bend,1,2490,No,0,200,200,200,200,200,200,200
+Illawara,Jaspers Creek Bend,Jaspers Brush Bend,1,1090,No,800,200,110,135,145,110,135,145
+Illawara,Jaspers Brush Bend,Jaspers Brush Straight,1,540,No,600,200,95,115,125,95,115,125
+Illawara,Jaspers Brush Straight,Bomaderry Freight Yard,1,6820,No,3000,200,200,200,200,200,200,200
+Illawara,Bomaderry Freight Yard,Bomaderry Station North,2,70,No,0,200,200,200,200,200,200,200
+Bomaderry Station,Bomaderry Station North,Bomaderry Station South,2,110,No,0,200,200,200,200,200,200,200
+Airport,Central Airport Branch,Airport Branch Straight,2,380,Yes,500,200,85,105,115,85,105,115
+Airport,Airport Branch Straight,Green Square Bend,2,1560,Yes,1400,200,145,180,195,145,180,195
+Airport,Green Square Bend,Green Square Station East,2,340,Yes,200,200,50,65,70,50,65,70
+Green Square Station,Green Square Station East,Green Square Station West,2,160,Yes,0,200,200,200,200,200,200,200
+Airport,Green Square Station West,Mascot Station North,2,2250,Yes,1700,200,160,200,200,160,200,200
+Mascot Station,Mascot Station North,Mascot Station South,2,160,Yes,0,200,200,200,200,200,200,200
+Airport,Mascot Station South,Domestic Airport Bend,2,780,Yes,0,200,200,200,200,200,200,200
+Airport,Domestic Airport Bend,Domestic Airport Station East,2,490,Yes,400,200,75,95,100,75,95,100
+Domestic Airport Station,Domestic Airport Station East,Domestic Airport Station West,2,160,Yes,0,200,200,200,200,200,200,200
+Airport,Domestic Airport Station West,International Airport Station East,2,1200,Yes,0,200,200,200,200,200,200,200
+International Airport Station,International Airport Station East,International Airport Station West,2,160,Yes,0,200,200,200,200,200,200,200
+Airport,International Airport Station West,Wolli Creek Station Underground East,2,1220,Yes,600,200,95,115,125,95,115,125
+Wolli Creek Underground Station,Wolli Creek Station Underground East,Wolli Creek Station Underground West,2,160,Yes,800,200,110,135,145,110,135,145
+Wolli Creek Junction,Wolli Creek Station Underground West,Wolli Creek Split,2,100,Yes,800,200,110,135,145,110,135,145
+Wolli Creek Junction,Wolli Creek Station Ground North,Wolli Creek Split,2,240,Yes,400,200,75,95,100,75,95,100
+East Hills,Wolli Creek Split,Turrella Straight,4,760,Yes,500,200,85,105,115,85,105,115
+East Hills,Turrella Straight,Turrella Station East,4,330,Yes,0,200,200,200,200,200,200,200
+Turrella Station,Turrella Station East,Turrella Station West,4,160,Yes,0,200,200,200,200,200,200,200
+East Hills,Turrella Station West,Turrella Curve,4,440,Yes,0,200,200,200,200,200,200,200
+East Hills,Turrella Curve,Bardwell Park Station East,4,850,Yes,500,200,85,105,115,85,105,115
+Bardwell Park Station,Bardwell Park Station East,Bardwell Park Station West,4,160,Yes,500,200,85,105,115,85,105,115
+East Hills,Bardwell Park Station West,Bexley North Bend,4,800,Yes,1000,200,125,150,165,125,150,165
+East Hills,Bexley North Bend,Bexley North Station East,4,310,Yes,600,200,95,115,125,95,115,125
+Bexley North Station,Bexley North Station East,Bexley North Station West,4,160,Yes,1100,200,130,160,175,130,160,175
+East Hills,Bexley North Station West,Kingsgrove Station East,4,1090,Yes,1100,200,130,160,175,130,160,175
+Kingsgrove Station,Kingsgrove Station East,Kingsgrove Station West,4,160,Yes,0,200,200,200,200,200,200,200
+East Hills,Kingsgrove Station West,Beverly Hills Straight,4,1080,Yes,1100,200,130,160,175,130,160,175
+East Hills,Beverly Hills Straight,Beverly Hills Station East,4,730,Yes,0,200,200,200,200,200,200,200
+Beverly Hills Station,Beverly Hills Station East,Beverly Hills Station West,4,210,Yes,0,200,200,200,200,200,200,200
+East Hills,Beverly Hills Station West,Narwee Straight,4,570,Yes,700,200,100,125,135,100,125,135
+East Hills,Narwee Straight,Narwee Station East,4,390,Yes,0,200,200,200,200,200,200,200
+Narwee Station,Narwee Station East,Narwee Station West,4,170,Yes,500,200,85,105,115,85,105,115
+East Hills,Narwee Station West,Riverwood Straight,4,260,Yes,500,200,85,105,115,85,105,115
+East Hills,Riverwood Straight,Riverwood Station East,4,1290,Yes,0,200,200,200,200,200,200,200
+Riverwood Station,Riverwood Station East,Riverwood Station West,4,160,Yes,0,200,200,200,200,200,200,200
+East Hills,Riverwood Station West,Riverwood Curve,4,190,Yes,0,200,200,200,200,200,200,200
+East Hills,Riverwood Curve,Basil Reserve,4,320,Yes,1200,200,135,165,180,135,165,180
+East Hills,Basil Reserve,Salt Pan Creek Bend,4,540,Yes,0,200,200,200,200,200,200,200
+East Hills,Salt Pan Creek Bend,Padstow Park Bend,4,240,Yes,1200,200,135,165,180,135,165,180
+East Hills,Padstow Park Bend,Padstow Station East,4,380,Yes,0,200,200,200,200,200,200,200
+Padstow Station,Padstow Station East,Padstow Station West,4,160,Yes,0,200,200,200,200,200,200,200
+East Hills,Padstow Station West,Revesby Station East,4,1460,Yes,0,200,200,200,200,200,200,200
+Revesby Station,Revesby Station East,Revesby Station West,4,160,Yes,0,200,200,200,200,200,200,200
+East Hills,Revesby Station West,Revesby Straight,4,290,Yes,2100,200,180,200,200,180,200,200
+East Hills,Revesby Straight,Panania Station East,2,1140,Yes,0,200,200,200,200,200,200,200
+Panania Station,Panania Station East,Panania Station West,2,160,Yes,0,200,200,200,200,200,200,200
+East Hills,Panania Station West,East Hills Curve,2,930,Yes,1200,200,135,165,180,135,165,180
+East Hills,East Hills Curve,East Hills Station North,2,380,Yes,0,200,200,200,200,200,200,200
+East Hills Station,East Hills Station North,East Hills Station South,3,160,Yes,1400,200,145,180,195,145,180,195
+East Hills,East Hills Station South,East Hills Straight,2,1180,Yes,1400,200,145,180,195,145,180,195
+East Hills,East Hills Straight,Holsworthy Station East,2,1390,Yes,0,200,200,200,200,200,200,200
+Holsworthy Station,Holsworthy Station East,Holsworthy Station West,2,160,Yes,0,200,200,200,200,200,200,200
+East Hills,Holsworthy Station West,Moorebank Avenue,2,3270,Yes,0,200,200,200,200,200,200,200
+East Hills,Moorebank Avenue,Georges River Bend,2,1230,Yes,2300,200,190,200,200,190,200,200
+East Hills,Georges River Bend,Glenfield Split North,2,740,Yes,900,200,115,145,155,115,145,155
+Main South,Cabramatta Station South,Warwick Farm Station North,3,1940,Yes,0,200,200,200,200,200,200,200
+Warwick Farm Station,Warwick Farm Station North,Warwick Farm Station South,3,170,Yes,0,200,200,200,200,200,200,200
+Main South,Warwick Farm Station South,Warwick Farm Bend,3,370,Yes,0,200,200,200,200,200,200,200
+Main South,Warwick Farm Bend,Liverpool Station North,4,1020,Yes,800,200,110,135,145,110,135,145
+Liverpool Station,Liverpool Station North,Liverpool Station South,5,170,Yes,0,200,200,200,200,200,200,200
+Main South,Liverpool Station South,Liverpool Yards,5,140,Yes,0,200,200,200,200,200,200,200
+Main South,Liverpool Yards,Liverpool Bend,4,280,Yes,0,200,200,200,200,200,200,200
+Main South,Liverpool Bend,Liverpool Straight,3,320,Yes,1300,200,140,175,190,140,175,190
+Main South,Liverpool Straight,Casula Curves,3,1550,Yes,0,200,200,200,200,200,200,200
+Main South,Casula Curves,Casula Station North,3,650,Yes,900,200,115,145,155,115,145,155
+Casula Station,Casula Station North,Casula Station South,3,160,Yes,900,200,115,145,155,115,145,155
+Main South,Casula Station South,Glenfield Creek,3,210,Yes,700,200,100,125,135,100,125,135
+Main South,Glenfield Creek,Moorebank Terminal North,3,400,Yes,1100,200,130,160,175,130,160,175
+Main South,Moorebank Terminal North,Moorebank Terminal South,4,410,Yes,1100,200,130,160,175,130,160,175
+Main South,Moorebank Terminal South,Glenfield Split North,4,1120,Yes,0,200,200,200,200,200,200,200
+Moorebank Junction,Moorebank Terminal North,Moorebank Terminal,2,390,Yes,300,200,65,80,85,65,80,85
+Moorebank Junction,Moorebank Terminal South,Moorebank Terminal,2,280,Yes,150,200,45,55,60,45,55,60
+Main South,Glenfield Split North,Glenfield Station North,5,870,Yes,0,200,200,200,200,200,200,200
+Glenfield Station,Glenfield Station North,Glenfield Station South,5,170,Yes,0,200,200,200,200,200,200,200
+Main South,Glenfield Station South,Glenfield Split South,7,350,Yes,0,200,200,200,200,200,200,200
+Main South,Glenfield Split South,Bunbury Curran Creek,5,280,Yes,0,200,200,200,200,200,200,200
+Main South,Bunbury Curran Creek,Macquarie Fields Station North,3,1090,Yes,0,200,200,200,200,200,200,200
+Macquarie Fields Station,Macquarie Fields Station North,Macquarie Fields Station South,3,160,Yes,0,200,200,200,200,200,200,200
+Main South,Macquarie Fields Station South,Ingleburn Station North,3,1690,Yes,0,200,200,200,200,200,200,200
+Ingleburn Station,Ingleburn Station North,Ingleburn Station South,3,160,Yes,0,200,200,200,200,200,200,200
+Main South,Ingleburn Station South,Bow Bowing Creek,3,1660,Yes,0,200,200,200,200,200,200,200
+Main South,Bow Bowing Creek,Kayess Park Straight,3,970,Yes,0,200,200,200,200,200,200,200
+Main South,Kayess Park Straight,Minto Station North,3,1240,Yes,0,200,200,200,200,200,200,200
+Minto Station,Minto Station North,Minto Station South,3,160,Yes,0,200,200,200,200,200,200,200
+Main South,Minto Station South,Minto Freight Yards North,3,260,Yes,0,200,200,200,200,200,200,200
+Main South,Minto Freight Yards North,Minto Freight Yards South,3,890,Yes,0,200,200,200,200,200,200,200
+Main South,Minto Freight Yards South,Minto Curve,3,860,Yes,0,200,200,200,200,200,200,200
+Main South,Minto Curve,Leumeah Straight,3,560,Yes,1000,200,125,150,165,125,150,165
+Main South,Leumeah Straight,Leumeah Station East,3,230,Yes,0,200,200,200,200,200,200,200
+Leumeah Station,Leumeah Station East,Leumeah Station West,3,170,Yes,0,200,200,200,200,200,200,200
+Main South,Leumeah Station West,Rose St Split,3,1040,Yes,0,200,200,200,200,200,200,200
+Main South,Rose St Split,Campbelltown Station North,4,820,Yes,0,200,200,200,200,200,200,200
+Campbelltown Station,Campbelltown Station North,Campbelltown Station South,4,200,Yes,0,200,200,200,200,200,200,200
+Main South,Campbelltown Station South,Campbelltown Curve,4,540,Yes,0,200,200,200,200,200,200,200
+Main South,Campbelltown Curve,Campbelltown Yards,4,440,Yes,1900,200,170,200,200,170,200,200
+Main South,Campbelltown Yards,Campbelltown Straight,3,220,Yes,1900,200,170,200,200,170,200,200
+Main South,Campbelltown Straight,Macarthur Station East,3,490,Yes,0,200,200,200,200,200,200,200
+Macarthur Station,Macarthur Station East,Macarthur Station West,3,170,Yes,0,200,200,200,200,200,200,200
+South West,Glenfield Split South,Glenfield Bend,2,530,Yes,400,200,75,95,100,75,95,100
+South West,Glenfield Bend,Edmondson Park Straight,2,870,Yes,1600,200,155,195,200,155,195,200
+South West,Edmondson Park Straight,Edmondson Park Station East,2,1560,Yes,0,200,200,200,200,200,200,200
+Edmondson Park Station,Edmondson Park Station East,Edmondson Park Station West,2,170,Yes,0,200,200,200,200,200,200,200
+South West,Edmondson Park Station West,Leppington Bend,2,2050,Yes,2000,200,175,200,200,175,200,200
+South West,Leppington Bend,Leppington Curve,2,1340,Yes,800,200,110,135,145,110,135,145
+South West,Leppington Curve,Leppington Station East,2,2080,Yes,3000,200,200,200,200,200,200,200
+Leppington Station,Leppington Station East,Leppington Station West,4,170,Yes,0,200,200,200,200,200,200,200
+South West,Leppington Station West,Leppington Depot,2,1660,Yes,0,200,200,200,200,200,200,200
+Cronulla,Sutherland Split,Sutherland Bend,2,630,Yes,300,200,65,80,85,65,80,85
+Cronulla,Sutherland Bend,Glencoe Street Bushcare,2,300,Yes,500,200,85,105,115,85,105,115
+Cronulla,Glencoe Street Bushcare,Kirrawee Station West,2,760,Yes,700,200,100,125,135,100,125,135
+Kirrawee Station,Kirrawee Station West,Kirrawee Station East,2,190,Yes,700,200,100,125,135,100,125,135
+Cronulla,Kirrawee Station East,Gymea Station West,2,1090,Yes,0,200,200,200,200,200,200,200
+Gymea Station,Gymea Station West,Gymea Station East,2,160,Yes,0,200,200,200,200,200,200,200
+Cronulla,Gymea Station East,Miranda Station West,2,1450,Yes,0,200,200,200,200,200,200,200
+Miranda Station,Miranda Station West,Miranda Station East,2,170,Yes,0,200,200,200,200,200,200,200
+Cronulla,Miranda Station East,Caringbah Curve,2,1060,Yes,2700,200,200,200,200,200,200,200
+Cronulla,Caringbah Curve,Caringbah Station West,2,730,Yes,900,200,115,145,155,115,145,155
+Caringbah Station,Caringbah Station West,Caringbah Station East,2,160,Yes,0,200,200,200,200,200,200,200
+Cronulla,Caringbah Station East,Caringbah Bend,2,240,Yes,400,200,75,95,100,75,95,100
+Cronulla,Caringbah Bend,Woolooware Curve,2,1110,Yes,0,200,200,200,200,200,200,200
+Cronulla,Woolooware Curve,Woolooware Bend,2,480,Yes,1400,200,145,180,195,145,180,195
+Cronulla,Woolooware Bend,Woolooware Station West,2,110,Yes,500,200,85,105,115,85,105,115
+Woolooware Station,Woolooware Station West,Woolooware Station East,2,170,Yes,500,200,85,105,115,85,105,115
+Cronulla,Woolooware Station East,Cronulla Curve,2,240,Yes,500,200,85,105,115,85,105,115
+Cronulla,Cronulla Curve,Cronulla Station North,2,630,Yes,700,200,100,125,135,100,125,135
+Cronulla Station,Cronulla Station North,Cronulla Station South,1,200,Yes,700,200,100,125,135,100,125,135
+Eastern Suburbs,Town Hall Station North,Martin Place Station West,2,750,Yes,300,200,65,80,85,65,80,85
+Martin Place Station,Martin Place Station West,Martin Place Station East,2,160,Yes,0,200,200,200,200,200,200,200
+Eastern Suburbs,Martin Place Station East,Kings Cross Station West,2,1160,Yes,700,200,100,125,135,100,125,135
+Kings Cross Station,Kings Cross Station West,Kings Cross Station East,2,160,Yes,700,200,100,125,135,100,125,135
+Eastern Suburbs,Kings Cross Station East,Kings Cross Bend,2,430,Yes,600,200,95,115,125,95,115,125
+Eastern Suburbs,Kings Cross Bend,Edgecliff Station West,2,860,Yes,900,200,115,145,155,115,145,155
+Edgecliff Station,Edgecliff Station West,Edgecliff Station East,2,160,Yes,900,200,115,145,155,115,145,155
+Eastern Suburbs,Edgecliff Station East,Woollhara North,2,820,Yes,800,200,110,135,145,110,135,145
+Eastern Suburbs,Woollhara North,Woollhara South,2,160,Yes,800,200,110,135,145,110,135,145
+Eastern Suburbs,Woollhara South,Bondi Junction Station West,2,770,Yes,500,200,85,105,115,85,105,115
+Bondi Junction Station,Bondi Junction Station West,Bondi Junction Station East,2,160,Yes,500,200,85,105,115,85,105,115

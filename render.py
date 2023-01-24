@@ -106,7 +106,8 @@ class Display:
         self.current_zoom = 1 #current zoom level
         self.current_zoom_offset_x = 0 #how much is the display x origin offset from the true x origin
         self.current_zoom_offset_y = 0 #how much is the display y origin offset from the true y origin
-        
+
+
     #setup the main control options
     def setup_main_controls(self):
         #create the control panel
@@ -114,62 +115,33 @@ class Display:
         #self.main_controls.pack(side = tk.LEFT,anchor=tk.N)
         self.main_controls.place(x=0,y=50)
         #default file paths
-        default_nodes = 'nodes_sydney.csv'
-        default_edges = 'edges_sydney.csv'
-        default_schedule = 'schedule_sydney.csv'
-        default_segment_schedule = 'schedule_segments_sydney.csv'
-        default_parameters = 'parameters_sydney.csv'
-        default_eval = 'eval_sydney.csv'
-        default_scenario = 'ScenarioFixed.csv'
+        default_points = 'points_sydney.csv'
+        default_lines = 'lines_sydney.csv'
+        default_stations = 'stations_sydney.csv'
         #options
         #verbose option, determines level of logging to the console
         self.verbose = -1 #default level of logging is  0=none, 1=verbose, 2=super verbose, -1 is placeholder for setup
         self.verbose_button = tk.Button(master=self.main_controls,fg='black',bg='white',command=self.verbose_button_click,width=20)
         self.verbose_button.pack(side = tk.TOP)
         self.verbose_button_click() #display initial message
-        #label and input to import node files
-        self.node_file_path_label = tk.Label(master=self.main_controls,text='NODE FILE PATH',fg='black',bg='white',width=20)
-        self.node_file_path_label.pack()
-        self.node_file_path_entry = tk.Entry(master=self.main_controls,fg='black',bg='white',width=20)
-        self.node_file_path_entry.insert(0,default_nodes)
-        self.node_file_path_entry.pack()
-        #label and input to import edge files
-        self.edge_file_path_label = tk.Label(master=self.main_controls,text='EDGE FILE PATH',fg='black',bg='white',width=20)
-        self.edge_file_path_label.pack()
-        self.edge_file_path_entry = tk.Entry(master=self.main_controls,fg='black',bg='white',width=20)
-        self.edge_file_path_entry.insert(0,default_edges)
-        self.edge_file_path_entry.pack()
-        #label and input to import schedule files
-        self.schedule_file_path_label = tk.Label(master=self.main_controls,text='SCHEDULE FILE PATH',fg='black',bg='white',width=20)
-        self.schedule_file_path_label.pack()
-        self.schedule_file_path_entry = tk.Entry(master=self.main_controls,fg='black',bg='white',width=20)
-        self.schedule_file_path_entry.insert(0,default_schedule)
-        self.schedule_file_path_entry.pack()
-        #including the segment files which are used to construct more complex schedules
-        self.schedule_segment_file_path_label = tk.Label(master=self.main_controls,text='SEGMENTS FILE PATH',fg='black',bg='white',width=20)
-        self.schedule_segment_file_path_label.pack()
-        #note that an empty schedule will cause us to use the simple method of schedule extraction
-        self.schedule_segment_file_path_entry = tk.Entry(master=self.main_controls,fg='black',bg='white',width=20) 
-        self.schedule_segment_file_path_entry.insert(0,default_segment_schedule)
-        self.schedule_segment_file_path_entry.pack()
-        #csv file for importing the network parameters
-        self.parameters_file_path_label = tk.Label(master=self.main_controls,text='PARAMETERS FILE PATH',fg='black',bg='white',width=20)
-        self.parameters_file_path_label.pack()
-        self.parameters_file_path_entry = tk.Entry(master=self.main_controls,fg='black',bg='white',width=20)
-        self.parameters_file_path_entry.insert(0,default_parameters)
-        self.parameters_file_path_entry.pack()
-        #csv file for importing evaluation costs
-        self.eval_file_path_label = tk.Label(master=self.main_controls,text='EVALUATION FILE PATH',fg='black',bg='white',width=20)
-        self.eval_file_path_label.pack()
-        self.eval_file_path_entry = tk.Entry(master=self.main_controls,fg='black',bg='white',width=20)
-        self.eval_file_path_entry.insert(0,default_eval)
-        self.eval_file_path_entry.pack()   
-        #csv file for importing scenario info
-        self.scenario_file_path_label = tk.Label(master=self.main_controls,text='SCENARIO FILE PATH',fg='black',bg='white',width=20)
-        self.scenario_file_path_label.pack()
-        self.scenario_file_path_entry = tk.Entry(master=self.main_controls,fg='black',bg='white',width=20)
-        self.scenario_file_path_entry.insert(0,default_scenario)
-        self.scenario_file_path_entry.pack()   
+        #label and input to import point files
+        self.point_file_path_label = tk.Label(master=self.main_controls,text='POINT FILE PATH',fg='black',bg='white',width=20)
+        self.point_file_path_label.pack()
+        self.point_file_path_entry = tk.Entry(master=self.main_controls,fg='black',bg='white',width=20)
+        self.point_file_path_entry.insert(0,default_points)
+        self.point_file_path_entry.pack()
+        #label and input to import line files
+        self.line_file_path_label = tk.Label(master=self.main_controls,text='LINE FILE PATH',fg='black',bg='white',width=20)
+        self.line_file_path_label.pack()
+        self.line_file_path_entry = tk.Entry(master=self.main_controls,fg='black',bg='white',width=20)
+        self.line_file_path_entry.insert(0,default_lines)
+        self.line_file_path_entry.pack()
+        #label and input to import station files
+        self.station_file_path_label = tk.Label(master=self.main_controls,text='STATION FILE PATH',fg='black',bg='white',width=20)
+        self.station_file_path_label.pack()
+        self.station_file_path_entry = tk.Entry(master=self.main_controls,fg='black',bg='white',width=20)
+        self.station_file_path_entry.insert(0,default_stations)
+        self.station_file_path_entry.pack()
         #control for importing files 
         self.import_files_button = tk.Button(master=self.main_controls,text='IMPORT FILES',fg='black',bg='white',command=self.import_files_click,width=20)
         self.import_files_button.pack()
@@ -283,110 +255,51 @@ class Display:
     #attempt to import the selected files
     def import_files_click(self):
         #extract the file paths from the entry widgets
-        node_files_path = self.node_file_path_entry.get()
-        edge_files_path = self.edge_file_path_entry.get()
-        schedule_files_path = self.schedule_file_path_entry.get()
-        schedule_segment_files_path = self.schedule_segment_file_path_entry.get()
-        parameter_files_path = self.parameters_file_path_entry.get()
-        eval_files_path = self.eval_file_path_entry.get()
-        scenario_files_path = self.scenario_file_path_entry.get()
+        point_files_path = self.point_file_path_entry.get()
+        line_files_path = self.line_file_path_entry.get()
+        station_files_path = self.station_file_path_entry.get()
         #check that each file path is valid, and if so, import the file
-        node_path_valid = path.isfile(node_files_path)
-        edge_path_valid = path.isfile(edge_files_path)
-        schedule_path_valid = path.isfile(schedule_files_path)
-        parameter_path_valid = path.isfile(parameter_files_path)
-        eval_path_valid = path.isfile(eval_files_path)
-        scenario_path_valid = path.isfile(scenario_files_path)
-        #determine type of schedule
-        if schedule_segment_files_path == "":
-            #we won't be using schedule segments to construct our schedule
-            self.schedule_type = "simple"
-            segment_path_valid = True #we are not using the segment path, so it might as well be valid
-            self.log_print("using simple schedule generation")
-        else:
-            #we will be using schedule segments to construct our schedule
-            self.schedule_type = "complex"
-            segment_path_valid = path.isfile(schedule_segment_files_path)
-            self.log_print("using complex schedule generation")
+        point_path_valid = path.isfile(point_files_path)
+        line_path_valid = path.isfile(line_files_path)
+        station_path_valid = path.isfile(station_files_path)
         
         #if user path invalid, inform the user of this
         import_files_message = ""
         import_successful = True #assume we imported unless it fails
-        if node_path_valid==False:
-            import_files_message = import_files_message + node_files_path + " is not a valid file \n"
-            self.log_print(node_files_path + " is not a valid file")
+        if point_path_valid==False:
+            import_files_message = import_files_message + point_files_path + " is not a valid file \n"
+            self.log_print(point_files_path + " is not a valid file")
             import_successful = False
-        if edge_path_valid==False:
-            import_files_message = import_files_message + edge_files_path + " is not a valid file \n"
-            self.log_print(edge_files_path + " is not a valid file")
+        if line_path_valid==False:
+            import_files_message = import_files_message + line_files_path + " is not a valid file \n"
+            self.log_print(line_files_path + " is not a valid file")
             import_successful = False
-        if schedule_path_valid==False:
-            import_files_message = import_files_message + schedule_files_path + " is not a valid file \n"
-            self.log_print(schedule_files_path + " is not a valid file")
-            import_successful = False
-        if segment_path_valid == False:
-            import_files_message = import_files_message + schedule_segment_files_path + " is not a valid file \n"
-            self.log_print(schedule_segment_files_path + " is not a valid file")
-            import_successful = False
-        if parameter_path_valid == False:
-            import_files_message = import_files_message + parameter_files_path + " is not a valid file \n"
-            self.log_print(parameter_files_path + " is not a valid file")
-            import_successful = False
-        if eval_path_valid == False:
-            import_files_message = import_files_message + eval_files_path + " is not a valid file \n"
-            self.log_print(eval_files_path + " is not a valid file")
-            import_successful = False
-        if scenario_path_valid == False:
-            import_files_message = import_files_message + scenario_files_path + " is not a valid file \n"
-            self.log_print(scenario_files_path + " is not a valid file")
+        if station_path_valid==False:
+            import_files_message = import_files_message + station_files_path + " is not a valid file \n"
+            self.log_print(station_files_path + " is not a valid file")
             import_successful = False
 
         if import_successful:
             #if file path is valid, actually import the files
             import_files_message = import_files_message + "files are valid \n"
-            #try and import the nodes
+            #try and import the points
             try:
-                self.nodes_csv = pd.read_csv(node_files_path,thousands=r',')
+                self.points_csv = pd.read_csv(point_files_path,thousands=r',')
             except:
-                import_files_message = import_files_message + " import of " + node_files_path + " failed \n not a valid csv file\n"
+                import_files_message = import_files_message + " import of " + point_files_path + " failed \n not a valid csv file\n"
                 import_successful = False
-            #try and import the edges
+            #try and import the lines
             try:
-                self.edges_csv = pd.read_csv(edge_files_path,thousands=r',')
+                self.lines_csv = pd.read_csv(line_files_path,thousands=r',')
             except:
-                import_files_message = import_files_message + " import of " + edge_files_path + " failed  \n not a valid csv file\n"
+                import_files_message = import_files_message + " import of " + line_files_path + " failed  \n not a valid csv file\n"
                 import_successful = False
-            #try and import the schedule
+            #try and import the stations
             try:
-                self.schedule_csv = pd.read_csv(schedule_files_path,thousands=r',')
+                self.stations_csv = pd.read_csv(station_files_path,thousands=r',')
             except:
-                import_files_message = import_files_message + " import of " + schedule_files_path + " failed  \n not a valid csv file\n"
+                import_files_message = import_files_message + " import of " + station_files_path + " failed  \n not a valid csv file\n"
                 import_successful = False
-            #try and import the network/simulation parameters
-            try:
-                self.parameter_csv = pd.read_csv(parameter_files_path,thousands=r',')
-            except:
-                import_files_message = import_files_message + " import of " + parameter_files_path  + " failed  \n not a valid csv file\n"
-                import_successful = False
-            try:
-                self.eval_csv = pd.read_csv(eval_files_path,thousands=r',')
-            except:
-                import_files_message = import_files_message + " import of " + eval_files_path  + " failed  \n not a valid csv file\n"
-                import_successful = False
-            try:
-                self.scenario_csv = pd.read_csv(scenario_files_path,thousands=r',')
-            except:
-                import_files_message = import_files_message + " import of " + scenario_files_path  + " failed  \n not a valid csv file\n"
-            #if we are in complex schedule mode, try and import segment info
-            if self.schedule_type=='complex':
-                try:
-                    self.schedule_segments_csv = pd.read_csv(schedule_segment_files_path,thousands=r',',keep_default_na=False)
-                    #keep_default_na false so that empty values in a column are
-                except:
-                    import_files_message = import_files_message + " import of " + schedule_segment_files_path + " failed  \n not a valid csv file\n"
-                    import_successful = False
-            elif self.schedule_type=='simple':
-                self.schedule_segments_csv = "" #we don't need the schedule segments file in simple scheduling
         
         #print a relevant message if import successful
         if import_successful:
@@ -406,10 +319,10 @@ class Display:
             self.erase_all_edges_text()
         if self.simulation_setup_flag:
             self.erase_all_edges_text() 
-        self.extract_nodes_graph()
-        self.calculate_node_position()
-        self.extract_edges_graph()
-        self.calculate_edges_midpoints()
+        self.extract_points_graph()
+        self.calculate_points_position()
+        self.extract_lines_graph()
+        self.calculate_lines_midpoints()
         self.render_graph()
         self.first_render_flag = False
 
@@ -420,7 +333,7 @@ class Display:
             self.draw_network_click()
         
         time1 = time.time()
-        self.sim_network = n.Network(nodes_csv=self.nodes_csv,edges_csv=self.edges_csv,schedule_csv=self.schedule_csv,parameters_csv=self.parameter_csv,verbose=self.verbose,segment_csv=self.schedule_segments_csv,eval_csv=self.eval_csv,scenario_csv=self.scenario_csv,schedule_type=self.schedule_type,optimiser=self.optimiser)
+        self.sim_network = n.Network(nodes_csv=self.points_csv,edges_csv=self.lines_csv,schedule_csv=self.stations_csv,parameters_csv=self.parameter_csv,verbose=self.verbose,segment_csv=self.schedule_segments_csv,eval_csv=self.eval_csv,scenario_csv=self.scenario_csv,schedule_type=self.schedule_type,optimiser=self.optimiser)
         time2 = time.time()
         simulation_setup_message = "simulation setup in \n" +  "{:.3f}".format(time2-time1) + " seconds"
         self.log_print(simulation_setup_message)
@@ -467,7 +380,7 @@ class Display:
     
     #set default values for current sim variables, to avoid errors if we try and render them outside of a timestep
     def setup_default_sim_current_values(self):
-        num_nodes = len(self.node_names)
+        num_nodes = len(self.point_names)
         self.sim_node_current_passengers = np.zeros(num_nodes)
         self.sim_vehicles_current_names = []
         self.sim_vehicles_current_latitudes = []
@@ -743,7 +656,7 @@ class Display:
             self.erase_all_nodes_text(mode='above') #clear away node name text
         elif self.node_names_mode == 'display_names':
             self.node_names_button.config(text="DISPLAY NODE NAMES")
-            self.display_text_info_node(self.node_names,where_mode='above') #display node names on the map
+            self.display_text_info_node(self.point_names,where_mode='above') #display node names on the map
 
 
     #command for button to switch whether numeric information (eg num passengers) will be displayed next to all relevant nodes
@@ -1016,7 +929,7 @@ class Display:
 
     #set node sizes in accordance with the mode choosen
     def set_node_sizes(self):
-        num_nodes = len(self.node_names)
+        num_nodes = len(self.point_names)
         if self.node_size_type =="constant":
             self.nodes_radii = [self.default_node_radius]*num_nodes
             
@@ -1053,7 +966,7 @@ class Display:
 
     #set node colours in accordance with the mode choosen
     def set_node_colours(self):
-        num_nodes = len(self.node_names)
+        num_nodes = len(self.point_names)
         if self.node_colour_type =="constant":
             self.nodes_colour = [self.default_node_colour]*num_nodes
         
@@ -1175,7 +1088,7 @@ class Display:
     #FUNCTIONS TO DETERINE EDGE WIDTH/COLOUR
     #set edge width based on data about the edge (which data depends on mode)
     def set_edge_widths(self):
-        num_edges = len(self.edge_end_indices)
+        num_edges = len(self.line_end_indices)
         if self.edge_width_type == "constant":
             self.edge_widths = [self.default_edge_width]*num_edges
         else:
@@ -1203,7 +1116,7 @@ class Display:
                 self.edge_widths[i] = self.min_edge_width
         
     def set_edge_colours(self):
-        num_edges = len(self.edge_end_indices)
+        num_edges = len(self.line_end_indices)
         if self.edge_colour_type =="constant":
             self.edge_colours = [self.default_edge_colour]*num_edges
         else:
@@ -1316,22 +1229,22 @@ class Display:
 
     #FUNCTIONS TO IMPORT DATA NEEDED FOR THE NETWORK
 
-    #extract the list of nodes from a csv file into a python list, and calculate global geographical information for plotting
-    def extract_nodes_graph(self):
-        self.node_names = self.nodes_csv["Name"].to_list()
-        node_positions = self.nodes_csv["Location"].to_list()
-        self.node_latitudes = []
-        self.node_longitudes = []
-        for position in node_positions:
+    #extract the list of points from a csv file into a python list, and calculate global geographical information for plotting
+    def extract_points_graph(self):
+        self.point_names = self.points_csv["Name"].to_list()
+        point_positions = self.points_csv["Location"].to_list()
+        self.point_latitudes = []
+        self.point_longitudes = []
+        for position in point_positions:
             latitude,longitude = n.extract_coordinates(position)
-            self.node_latitudes.append(latitude)
-            self.node_longitudes.append(longitude)
+            self.point_latitudes.append(latitude)
+            self.point_longitudes.append(longitude)
 
         #get the minimum/maximum longitude and latitude
-        min_latitude = min(self.node_latitudes)
-        max_latitude = max(self.node_latitudes)
-        min_longitude = min(self.node_longitudes)
-        max_longitude = max(self.node_longitudes)
+        min_latitude = min(self.point_latitudes)
+        max_latitude = max(self.point_latitudes)
+        min_longitude = min(self.point_longitudes)
+        max_longitude = max(self.point_longitudes)
         self.central_latitude = (min_latitude + max_latitude)/2
         self.central_longitude = (min_longitude + max_longitude)/2
         #now determine conversion factors between coordinates and pixels
@@ -1344,45 +1257,45 @@ class Display:
         #the lower value is the limiting factor for an undistorted map
         self.pixels_per_degree = min(pixels_per_degree_vertical,pixels_per_degree_horizontal) 
 
-    #extract the list of edges from a csv file into a python list, and calculate global geographical information for plotting
-    #this needs to be run after nodes have been extracted so start/end node index assignment can be done
-    def extract_edges_graph(self):
-        edge_starts = self.edges_csv["Start"].to_list()
-        edge_ends = self.edges_csv["End"].to_list()
-        self.edge_names = [] #name of the edge from start to end
-        self.edge_reverse_names = [] #name of the edge from end to start
-        num_edges = len(edge_starts)#for the purpose of plotting, a bidirectional edge is one edge
+    #extract the list of lines from a csv file into a python list, and calculate global geographical information for plotting
+    #this needs to be run after points have been extracted so start/end point index assignment can be done
+    def extract_lines_graph(self):
+        line_starts = self.lines_csv["Start"].to_list()
+        line_ends = self.lines_csv["End"].to_list()
+        self.line_names = [] #name of the edge from start to end
+        self.line_reverse_names = [] #name of the edge from end to start
+        num_lines = len(line_starts)#for the purpose of plotting, a bidirectional edge is one edge
         #find the index of edge starts and ends in the list of nodes
-        self.edge_start_indices = []
-        self.edge_end_indices = []
-        for i in range(num_edges):
+        self.line_start_indices = []
+        self.line_end_indices = []
+        for i in range(num_lines):
             #get the start index
             try:
-                start_index = self.node_names.index(edge_starts[i])
+                start_index = self.point_names.index(line_starts[i])
             except ValueError:
-                warnings.warn('edge start ', edge_starts[i],' not present in list of node names')
+                print('line start ', line_starts[i],' not present in list of point names')
                 start_index = -1 #this will cause a crash later (by design), as our program a non-existent start node
             
             #get the end index
             try:
-                end_index = self.node_names.index(edge_ends[i])
+                end_index = self.point_names.index(line_ends[i])
             except ValueError:
-                warnings.warn('edge end ', edge_ends[i],' not present in list of node names')
+                print('line end ', line_ends[i],' not present in list of point names')
                 end_index = -1 #this will cause a crash later (by design), as our program contains a non-existent end node
 
-            self.edge_names.append(edge_starts[i] + ' to ' + edge_ends[i])
-            self.edge_reverse_names.append(edge_ends[i] + ' to ' + edge_starts[i])
-            self.edge_start_indices.append(start_index)
-            self.edge_end_indices.append(end_index)
+            self.line_names.append(line_starts[i] + ' to ' + line_ends[i])
+            self.line_reverse_names.append(line_ends[i] + ' to ' + line_starts[i])
+            self.line_start_indices.append(start_index)
+            self.line_end_indices.append(end_index)
 
-        self.edge_canvas_ids = ['blank']*num_edges #store edge canvas ids in a list so we can delete them later, 'blank' indicates they have not yet been created
-        self.edge_widths = [self.default_edge_width]*num_edges #store the default width of every edge
-        self.edge_colours = [self.default_edge_colour]*num_edges #store the default colour of every edge
-        self.edge_arrows = [tk.NONE]*num_edges #by default there will be no arrows on an edge
+        self.edge_canvas_ids = ['blank']*num_lines #store edge canvas ids in a list so we can delete them later, 'blank' indicates they have not yet been created
+        self.edge_widths = [self.default_edge_width]*num_lines #store the default width of every edge
+        self.edge_colours = [self.default_edge_colour]*num_lines #store the default colour of every edge
+        self.edge_arrows = [tk.NONE]*num_lines #by default there will be no arrows on an edge
 
     #calculate information about position of nodes
-    def calculate_node_position(self):
-        num_nodes = len(self.node_names)
+    def calculate_points_position(self):
+        num_nodes = len(self.point_names)
         self.nodes_x = []
         self.nodes_y = []
         self.nodes_radii = [self.default_node_radius]*num_nodes #default size for nodes
@@ -1391,7 +1304,7 @@ class Display:
         self.node_above_text_ids = ['blank']*num_nodes  #canvas ids for text which could be displayed above all nodes
         self.node_canvas_ids = ['blank']*num_nodes #canvas ids for the nodes themsleves
         for i in range(num_nodes):
-            x,y = self.convert_lat_long_to_x_y(self.node_latitudes[i],self.node_longitudes[i])
+            x,y = self.convert_lat_long_to_x_y(self.point_latitudes[i],self.point_longitudes[i])
             self.nodes_x.append(x)
             self.nodes_y.append(y)
         #original copy of node position, so that scaling can be calculated relative to the original values
@@ -1400,15 +1313,15 @@ class Display:
 
     #calculate the midpoint of edges, used for plotting overlay text on edges
     #this needs to be done after node positions are calculated
-    def calculate_edges_midpoints(self):
-        num_edges = len(self.edge_names)
+    def calculate_lines_midpoints(self):
+        num_edges = len(self.line_names)
         self.edges_midpoint_x = []
         self.edges_midpoint_y = []
         self.edge_text_ids = ['blank']*num_edges  #canvas ids for text which could be displayed next to all edges
         for i in range(num_edges):
             #extract the location of the nodes which the edge connects
-            edge_start_index = self.edge_start_indices[i] 
-            edge_end_index = self.edge_end_indices[i]
+            edge_start_index = self.line_start_indices[i] 
+            edge_end_index = self.line_end_indices[i]
             #and then calculate the midpoint of the edge
             edge_midpoint_x = (self.nodes_x[edge_start_index] + self.nodes_x[edge_end_index])/2
             edge_midpoint_y = (self.nodes_y[edge_start_index] + self.nodes_y[edge_end_index])/2
@@ -1494,10 +1407,10 @@ class Display:
     #needs to be run after edges have been extracted and nodes have been drawn to work correctly
     def render_edges(self):
         self.derender_hover_edge_text()#derender additional edge text if it exists
-        num_edges = len(self.edge_start_indices)
+        num_edges = len(self.line_start_indices)
         for i in range(num_edges):
-            start_index = self.edge_start_indices[i]
-            end_index = self.edge_end_indices[i]
+            start_index = self.line_start_indices[i]
+            end_index = self.line_end_indices[i]
             start_x = self.nodes_x[start_index]
             start_y = self.nodes_y[start_index]
             end_x = self.nodes_x[end_index]
@@ -1519,7 +1432,7 @@ class Display:
 
     #draw the nodes on the canvas
     def render_nodes(self):
-        num_nodes = len(self.node_names)
+        num_nodes = len(self.point_names)
         for i in range(num_nodes):
             #extract data
             x = self.nodes_x[i]
@@ -1591,7 +1504,7 @@ class Display:
     def node_enter(self,event):
         event_id = event.widget.find_withtag('current')[0]
         id_index = self.node_canvas_ids.index(event_id)
-        node_name = self.node_names[id_index]
+        node_name = self.point_names[id_index]
         self.log_print('node viewed ' + node_name)
         x = self.nodes_x[id_index]
         y = self.nodes_y[id_index]
@@ -1602,7 +1515,7 @@ class Display:
     def node_leave(self,event):
         event_id = event.widget.find_withtag('current')[0]
         id_index = self.node_canvas_ids.index(event_id)
-        node_name = self.node_names[id_index]
+        node_name = self.point_names[id_index]
         self.log_print('node left ' + node_name)
         self.canvas.delete(self.text_id) #delete the text popup from node_enter
 
@@ -1639,16 +1552,16 @@ class Display:
         event_id = event.widget.find_withtag('current')[0]
         id_index = self.edge_canvas_ids.index(event_id)
         #find the nodes at the ends of the edge
-        start_index = self.edge_start_indices[id_index]
-        end_index = self.edge_end_indices[id_index]
+        start_index = self.line_start_indices[id_index]
+        end_index = self.line_end_indices[id_index]
         #find the x and y positions of these nodes
         start_x = self.nodes_x[start_index]
         start_y = self.nodes_y[start_index]
         end_x = self.nodes_x[end_index]
         end_y = self.nodes_y[end_index]
         #decide on the text popup above each node
-        display_text_start = self.node_names[start_index]
-        display_text_end = self.node_names[end_index]
+        display_text_start = self.point_names[start_index]
+        display_text_end = self.point_names[end_index]
         #create the text popups, which are not interactive
         if self.text_id_line_start != -1:
             #delete any existing popups
@@ -1815,7 +1728,7 @@ class Display:
     #perform the actual text rendering of text near all nodes
     #whether this happens above or below all nodes can be selected 
     def display_text_info_node(self,info,where_mode='below',type_mode='text'):
-        num_nodes = len(self.node_names)
+        num_nodes = len(self.point_names)
         self.erase_all_nodes_text(mode=where_mode) #clear any old text
         if where_mode=='below':
             self.node_below_text_ids = ['blank']*num_nodes #create a container for the new text ids
@@ -1864,9 +1777,9 @@ class Display:
     def extract_data_edges(self,type):
         forward_edge_data = []
         reverse_edge_data = []
-        for forward_edge_name in self.edge_names: #extract data from the forward edges
+        for forward_edge_name in self.line_names: #extract data from the forward edges
             forward_edge_data.append(self.get_edge_data(forward_edge_name,type))
-        for reverse_edge_name in self.edge_reverse_names:
+        for reverse_edge_name in self.line_reverse_names:
             reverse_edge_data.append(self.get_edge_data(reverse_edge_name,type))
         return forward_edge_data,reverse_edge_data
 
@@ -1909,7 +1822,7 @@ class Display:
         self.display_text_info_above_edges(edges_text)
 
     def display_text_info_above_edges(self,info):
-        num_edges = len(self.edge_names)
+        num_edges = len(self.line_names)
         self.erase_all_edges_text() #clear any old text
         self.edge_text_ids = ['blank']*num_edges #create a container for the new text ids
         for i in range(num_edges): #for every edge
@@ -1919,7 +1832,7 @@ class Display:
 
     #render edge names
     def render_edge_names(self):
-        self.display_text_info_above_edges(self.edge_names)
+        self.display_text_info_above_edges(self.line_names)
 
     #erase text displayed next to all edges
     def erase_all_edges_text(self):
@@ -1940,14 +1853,14 @@ class Display:
 
     #extract the path between two nodes
     def extract_path_nodes(self,start_node,end_node):
-        start_id = self.node_names.index(start_node) #get the id's of the starting node
-        end_id = self.node_names.index(end_node) #and the ending node
+        start_id = self.point_names.index(start_node) #get the id's of the starting node
+        end_id = self.point_names.index(end_node) #and the ending node
         edges_path = self.extract_path_node_indices(start_id,end_id)
         return edges_path
 
     #reset edge names and colours to their default values
     def reset_edges_plot(self):
-        num_edges = len(self.edge_names)
+        num_edges = len(self.line_names)
         for i in range(num_edges):
             self.edge_colours[i] = self.default_edge_colour
             self.edge_widths[i] = self.default_edge_width
@@ -1968,12 +1881,12 @@ class Display:
             #go through all the edges in the edges path
             try:
                 #if the edge is from start to finish
-                edge_index = self.edge_names.index(edge_name)
+                edge_index = self.line_names.index(edge_name)
                 reverse = False
             except ValueError: 
                 #if the edge is from finish to start
                 try:
-                    edge_index = self.edge_reverse_names.index(edge_name)
+                    edge_index = self.line_reverse_names.index(edge_name)
                     reverse = True
                 except ValueError:
                     #edge is in neither list
