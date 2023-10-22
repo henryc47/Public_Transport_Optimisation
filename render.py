@@ -100,7 +100,12 @@ class Display:
         self.canvas = tk.Canvas(self.window, bg="white", height=self.canvas_height, width=self.canvas_width)
         self.canvas.pack(side = tk.RIGHT) 
         #bind canvas to scroll options
-        self.canvas.bind("<MouseWheel>",self.zoom_canvas)
+        #self.canvas.bind("<MouseWheel>",self.zoom_canvas)
+        try:
+            self.canvas.bind("<Foo>",self.zoom_canvas)
+        except:
+            print('invalid binding, using to default scroll wheel')
+            self.canvas.bind("<MouseWheel>",self.zoom_canvas)
         self.canvas.bind("<ButtonPress-1>",self.pan_start)
         self.canvas.bind("<B1-Motion>",self.pan_end)
         self.current_zoom = 1 #current zoom level
@@ -1703,7 +1708,7 @@ class Display:
         #get position of mouse during scroll
         mouse_x = self.canvas.canvasx(event.x)
         mouse_y = self.canvas.canvasy(event.y)
-        #print('mouse x ',mouse_x,' mouse y ',mouse_y)
+        print('mouse x ',mouse_x,' mouse y ',mouse_y)
         zoom_delta = 0.01*event.delta #zoom is in proportion to scroll wheel direction and magnitude
         self.current_zoom = self.current_zoom*(1+zoom_delta) #update the accumulated zoom level
         self.current_zoom_offset_x = self.current_zoom_offset_x*(1+zoom_delta) - mouse_x*zoom_delta#calculate the new offset for x

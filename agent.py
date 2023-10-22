@@ -6,6 +6,10 @@ import copy as copy
 #route_step = [next_service_name,node.name]
 
 class Agent:
+    __slots__ = ("start_node","destination_node","id","start_time","network","destination_path","number_passengers","done")
+
+
+
     def __init__(self,start_node,destination_node,id,start_time,network,number_passengers,path):
         self.start_node = start_node 
         self.destination_node = destination_node
@@ -16,7 +20,7 @@ class Agent:
         self.number_passengers = number_passengers #number of passengers represented by this agent
         #self.found_path = self.pathfind()
         self.done = False #has the agent reached their destination yet
-        
+      
 
     #calculate a path from the start to the destination
     #store this path inside the agent
