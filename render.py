@@ -473,6 +473,8 @@ class Display:
 
     #run the basic simulation
     def run_simulation_click(self):
+        if self.simulation_run_flag==True:
+            self.setup_simulation_click() #reset the simulation
         if self.simulation_setup_flag == True:
             simulation_start_message = 'simulation started'
             self.log_print(simulation_start_message)
