@@ -15,6 +15,7 @@ import agent as a
 #at the moment, only relevant property is travel time taken, but more properties may be added later
 #we will be using one second increments for time
 class Edge:
+    __slots__ = ("name","start_node","end_node","travel_time")
     #initialise the node
     def __init__(self,name,start_node,end_node,travel_time):
         self.name = name
