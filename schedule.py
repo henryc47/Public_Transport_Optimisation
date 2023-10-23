@@ -5,6 +5,8 @@ import copy as copy
 
 class Schedule:
     #initialise the empty schedule
+    __slots__ = ("name","nodes","node_names","edges","schedule_times")
+
     def __init__(self,name):
         self.name = name#starting node of the schedule, useful for assigning schedules to vehicles
         self.nodes = [] #list of destinations (reference to a node)
