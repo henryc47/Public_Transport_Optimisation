@@ -266,6 +266,12 @@ class Node:
 class Network:
     #initalise the physical network
     #note, this assumes that passengers are evenly distributed through the day
+    __slots__ = ("verbose","edges","nodes","edge_names","optimiser","node_names","edge_starts","edge_ends","edge_times","edge_bidirectional","vehicle_max_seated","vehicle_max_standing","traffic_time_gap"
+                 ,"traffic_multiplier","stop_simulation_time","vehicle_cost","agent_cost_seated","agent_cost_standing","agent_cost_waiting","unfinished_penalty","passenger_time_multiplier"
+                 ,"segment_csv","schedule_csv","schedule_type","node_passengers","parameters_csv","num_vehicles_started_here","vehicles","vehicle_names","time","agents","agent_ids","agent_id_counter"
+                 ,"num_failed_agents","num_successful_agents","distance_to_all","paths_to_all","origin_destination_trips","edge_traffic","schedule_names","schedule_gaps","schedule_offsets","schedule_finish"
+                 ,"schedules","dispatch_schedule2","times","vehicle_latitudes","vehicle_longitudes","store_vehicle_names","vehicle_passengers")
+
     def __init__(self,nodes_csv,edges_csv,schedule_csv,parameters_csv,eval_csv,scenario_csv,verbose=1,segment_csv='',schedule_type='simple',optimiser='hardcoded'):
         time1 = time.time()
         print('optimiser ',optimiser)
