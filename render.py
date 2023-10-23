@@ -188,10 +188,14 @@ class Display:
         #this button will setup the simulation
         self.setup_simulation_button = tk.Button(master=self.main_controls,text="SETUP SIMULATION",fg='black',bg='white',command=self.setup_simulation_click,width=20)
         self.setup_simulation_button.pack()
+        #this wrapper will determine if we profile the simulation
+        self.profiler_active = False
+        self.profiler_on_button = tk.Button(master=self.main_controls,text="PROFILER OFF",fg='black',bg='white',command=self.set_profiler_click,width=20)
+        self.profiler_on_button.pack()
         #this button will run the basic simulation
         #self.run_simulation_button = tk.Button(master=self.main_controls,text="RUN SIMULATION",fg='black',bg='white',command=self.run_simulation_click,width=20)
         #this option with profiling
-        self.run_simulation_button = tk.Button(master=self.main_controls,text="RUN SIMULATION",fg='black',bg='white',command=self.run_simulation_click,width=20)
+        self.run_simulation_button = tk.Button(master=self.main_controls,text="RUN SIMULATION",fg='black',bg='white',command=self.wrapper_run_simulation_click,width=20)
         self.run_simulation_button.pack()
         #this button will play back the basic simulation
         self.view_simulation_button = tk.Button(master=self.main_controls,text="VIEW SIMULATION",fg='black',bg='white',command=self.view_simulation_click,width=20)
@@ -231,6 +235,14 @@ class Display:
             self.optimiser = 'hardcoded'
         if self.simulation_setup_flag==True:
             self.message_update('note you must resetup the simulation to apply a new optimiser')
+
+    def set_profiler_click(self):
+        if self.profiler_active==False:
+            self.profiler_on_button.config(text="PROFILER ON")
+            self.profiler_active = True
+        else:
+            self.profiler_on_button.config(text="PROFILER OFF")
+            self.profiler_active = False
 
     def run_evaluation_click(self):
         if self.simulation_run_flag==True:
@@ -442,6 +454,13 @@ class Display:
 
     def setup_evaluator(self):
         self.evaluator = e.Evaluator(self.eval_csv,self.parameter_csv)
+
+    #decide which version of simulation click to use based on whether we are in profiler mode or not
+    def wrapper_run_simulation_click(self):
+        if(self.profiler_active==True):
+            self.profile_run_simulation_click()
+        else:
+            self.run_simulation_click()
 
     #run the simulation click using Cprofile to determine running times
     def profile_run_simulation_click(self):
