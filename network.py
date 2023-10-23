@@ -38,6 +38,8 @@ class Edge:
 #node class, represents a location between which passengers can travel
 #the node stores the names of all the nodes which start at it
 class Node:
+    __slots__ = ("name","edge_names","edge_destinations","edge_times","latitude","longitude","agents","schedule_names","schedule_times","nodes_after","node_times_after","id","network",
+                 "next_vehicle_changed","num_agents","next_service_times","num_nodes_in_network","distance_to_nodes","evaluated_nodes","evaluated_nodes_tf","path_to_nodes")
     def __init__(self,name,coordinates,id,network):
         self.name = name
         self.edge_names = []#list of all edges starting at this node
