@@ -7,9 +7,7 @@ import copy as copy
 
 class Agent:
     __slots__ = ("start_node","destination_node","id","start_time","network","destination_path","number_passengers","done")
-
-
-
+    
     def __init__(self,start_node,destination_node,id,start_time,network,number_passengers,path):
         self.start_node = start_node 
         self.destination_node = destination_node

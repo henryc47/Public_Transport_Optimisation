@@ -6,6 +6,8 @@ import schedule as Schedule
 import network as Network
 #base vehicle class
 class Vehicle:
+    __slots__ = ("schedule","schedule_name","name","state","state_new","number_passengers","previous_stop","final_destination","at_final_destination","at_final_destination","agents","num_passengers",
+                 "max_passengers","next_destination","next_edge","edge_length","previous_stop","move_timer")
     #create the vehicle
     def __init__(self,schedule,start_time,name,seated_capacity=960,standing_capacity=1680):
         self.schedule = copy.copy(schedule)
